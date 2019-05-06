@@ -7,7 +7,6 @@ print("4  删除一个名片")
 print("5  退出系统")
 print("="*50)
 
-
 cards_info = []
 while True:
     num = int(input("请输入要进行的操作："))
