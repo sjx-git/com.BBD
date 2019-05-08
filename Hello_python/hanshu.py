@@ -11,7 +11,16 @@ re = sum1(a,b,c)
 print((re))
 
 '''
+def ss():
+    f = open("test.txt","w+")
+    f.write("Hello first txt  ")
+    f.close()
+    a = open("test.txt","r+")
+    print(a.read())
+    open()
+    #print(a.read(1))
 
-f = open("test.txt","w+")
-f.close()
+if __name__ == '__main__':
+    ss()
+
 
