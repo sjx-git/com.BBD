@@ -16,10 +16,30 @@ class Demo(object):#类方法的命名，大驼峰的方式
     @staticmethod
     def print_menu():# 可以不写self
         pass
+    """装饰器
+    def b(name2):
+        def c(name3):
+            print(name2+name3)
+            a()
+        return c
+        
+    #闭包
+    def d(name4):
+        def e(name5):
+            print(name5+name4)
+            a()
+        return e
+    
+    @b#等价于a=b(a)
+    @d#等价于a=d(a)
+    def a(name1):
+        print("底层方法")
+    a()
+    """
 
 if __name__ == '__main_':
-    demo = Demo()
     #调用类方法 第一种
+    demo = Demo()
     demo.all_demo()
     #调用类方法，第二种
     Demo.all_demo()
