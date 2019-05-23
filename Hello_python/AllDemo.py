@@ -36,7 +36,61 @@ class Demo(object):#类方法的命名，大驼峰的方式
         print("底层方法")
     a()
     """
-
+    """装饰器 对有参数的&&不定长参数 装饰
+    def b(name2):
+        def c(*args,**kwargs):
+            print(name2+name3)
+            a(*args,**kwargs)
+        return c
+        
+    @d#等价于a=d(a)
+    def a(a,b):
+        print("a= %d,b=%d"%(a,b))
+    a(11,22)
+    """
+    """装饰器 对带有参数的&&有返回值&&不定长参数 装饰
+    def b(name2):
+        def c(*args,**kwargs):
+            print(name2+name3)
+           ret =  a(*args,**kwargs)
+           return ret
+        return c
+        
+    @d#等价于a=d(a)
+    def a(a,b):
+        print("a= %d,b=%d"%(a,b))
+        return  "ret"
+    a(11,22)
+    """
+    """装饰器 通用装饰器
+   def b(name2):
+       def c(*args,**kwargs):
+           print(name2+name3)
+          ret =  a(*args,**kwargs)
+          return ret
+       return c
+       
+   @d#等价于a=d(a)
+   def a(a,b):
+       print("a= %d,b=%d"%(a,b))
+       return  "ret"
+   a(11,22)
+   """
+"""装饰器 有参数的装饰器
+   def f(arg) 
+       def b(name2):
+           def c(*args,**kwargs):
+               print(name2+name3)
+              ret =  a(*args,**kwargs)
+              return ret
+           return c
+       return b
+   @f("heihei")
+   def a(a,b):
+       print("a= %d,b=%d"%(a,b))
+       return  "ret"
+   a(11,22)
+   """
 if __name__ == '__main_':
     #调用类方法 第一种
     demo = Demo()
