@@ -1,6 +1,5 @@
 import requests
-import unittest
-class tester(unittest.TestCase):
+class tester(object):
     def get_url(self):
         url = requests.get('http://192.168.8.240:8088/api/json')
         json_res = url.json()["jobs"][0]
@@ -16,6 +15,5 @@ class tester(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    #tester.get_url('self')
+    tester.get_url('self')
     tester.post_url('self')
-    #unittest.main()

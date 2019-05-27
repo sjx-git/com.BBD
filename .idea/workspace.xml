@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a63005-5517-49ae-96ad-68a2edb38e5f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/APi_Test_Package/API_Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APi_Test_Package/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APi_Test_Package/http_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APi_Test_Package/open_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bbd.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bbd.com.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APi_Test_Package/Api_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APi_Test_Package/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello_python/1111111.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello_python/hanshu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APi_Test_Package/API_Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APi_Test_Package/http_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/APi_Test_Package/http_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APi_Test_Package/open_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/APi_Test_Package/open_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbd.com/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/bbd.com/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/data1.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,42 +20,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/com_BBD$API_Test.coverage" NAME="API_Test Coverage Results" MODIFIED="1558875007524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/bbd_com$SweetPotato.coverage" NAME="SweetPotato Coverage Results" MODIFIED="1558321226848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_open_file_API_Test_test01.coverage" NAME="Unittests for open_file.API_Test.test01 Coverage Results" MODIFIED="1558967584193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$hanshu.coverage" NAME="hanshu Coverage Results" MODIFIED="1558843906688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_BBD$test.coverage" NAME="test Coverage Results" MODIFIED="1558970335313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_Api_demo_API_Test_test02.coverage" NAME="Unittests for Api_demo.API_Test.test02 Coverage Results" MODIFIED="1558967371068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/bbd_com$OPen_demo.coverage" NAME="OPen_demo Coverage Results" MODIFIED="1557388713493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_http_request_tester.coverage" NAME="Unittests for http_request.tester Coverage Results" MODIFIED="1558963676956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$tupuTest.coverage" NAME="tupuTest Coverage Results" MODIFIED="1556950830735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_API_Test_API_Test_test02.coverage" NAME="Unittests for API_Test.API_Test.test02 Coverage Results" MODIFIED="1558964720346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_API_Test_API_Test.coverage" NAME="Unittests for API_Test.API_Test Coverage Results" MODIFIED="1558964856825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$open_file.coverage" NAME="open_file Coverage Results" MODIFIED="1558969306968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$API_Test.coverage" NAME="API_Test Coverage Results" MODIFIED="1558875007524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_API_Test_API_Test_test01.coverage" NAME="Unittests for API_Test.API_Test.test01 Coverage Results" MODIFIED="1558963584182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_Api_demo_API_Test.coverage" NAME="Unittests for Api_demo.API_Test Coverage Results" MODIFIED="1558969790870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_open_file_API_Test.coverage" NAME="Unittests for open_file.API_Test Coverage Results" MODIFIED="1558968619745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$http_request.coverage" NAME="http_request Coverage Results" MODIFIED="1558965994904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_in_API_Test_py.coverage" NAME="Unittests in API_Test.py Coverage Results" MODIFIED="1558966416449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="API_Test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APi_Test_Package/API_Test.py">
+      <file leaf-file-name="http_request.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APi_Test_Package/http_request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="375">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="open_file.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APi_Test_Package/open_file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="open_file.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/APi_Test_Package/open_file.py">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/APi_Test_Package/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http_request.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APi_Test_Package/http_request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="-28">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,7 +100,11 @@
         <option value="$PROJECT_DIR$/Hello_python/http_request.py" />
         <option value="$PROJECT_DIR$/Hello_python/1111111.py" />
         <option value="$PROJECT_DIR$/Hello_python/API_Test.py" />
+        <option value="$PROJECT_DIR$/APi_Test_Package/http_request.py" />
+        <option value="$PROJECT_DIR$/APi_Test_Package/API_Test.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/open_file.py" />
+        <option value="$PROJECT_DIR$/APi_Test_Package/Api_demo.py" />
+        <option value="$PROJECT_DIR$/APi_Test_Package/test.py" />
       </list>
     </option>
   </component>
@@ -112,40 +128,48 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="com.BBD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bbd.com" type="47feb1d3:ProjectViewModuleNode" />
-            </path>
-            <path>
-              <item name="com.BBD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bbd.com" type="47feb1d3:ProjectViewModuleNode" />
               <item name="com.BBD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com.BBD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bbd.com" type="47feb1d3:ProjectViewModuleNode" />
               <item name="com.BBD" type="462c0819:PsiDirectoryNode" />
               <item name="APi_Test_Package" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.BBD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.BBD" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.BBD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.BBD" type="462c0819:PsiDirectoryNode" />
+              <item name="Hello_python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.BBD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="F:/Python" />
+    <property name="last_opened_file_path" value="F:/Python/Lib/site-packages/xlrd-1.2.0.dist-info" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -167,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.API_Test">
+  <component name="RunManager" selected="Python.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -240,63 +264,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
     </configuration>
-    <configuration name="API_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Hello_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hello_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\com.BBD\APi_Test_Package\API_Test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="OPen_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Hello_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hello_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/OPen_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="SweetPotato" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Hello_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hello_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/SweetPotato.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -316,39 +283,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="hanshu" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Hello_python" />
+    <configuration name="open_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bbd.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hello_python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APi_Test_Package" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\com.BBD\APi_Test_Package\http_request.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APi_Test_Package/open_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tupuTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Hello_python" />
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bbd.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hello_python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APi_Test_Package" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/tupuTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APi_Test_Package/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -398,6 +365,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+    </configuration>
+    <configuration name="Unittests for Api_demo.API_Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="bbd.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APi_Test_Package" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Api_demo.API_Test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for open_file.API_Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="bbd.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APi_Test_Package" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;open_file.API_Test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for open_file.API_Test.test01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="bbd.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APi_Test_Package" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;open_file.API_Test.test01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <module name="Demo" />
@@ -476,19 +485,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.tupuTest" />
-      <item itemvalue="Python.OPen_demo" />
-      <item itemvalue="Python.SweetPotato" />
-      <item itemvalue="Python.hanshu" />
-      <item itemvalue="Python.API_Test" />
+      <item itemvalue="Python tests.Unittests for Api_demo.API_Test" />
+      <item itemvalue="Python tests.Unittests for open_file.API_Test" />
+      <item itemvalue="Python tests.Unittests for open_file.API_Test.test01" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.open_file" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.API_Test" />
-        <item itemvalue="Python.hanshu" />
-        <item itemvalue="Python.SweetPotato" />
-        <item itemvalue="Python.OPen_demo" />
-        <item itemvalue="Python.tupuTest" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.Unittests for Api_demo.API_Test" />
+        <item itemvalue="Python.open_file" />
+        <item itemvalue="Python tests.Unittests for open_file.API_Test" />
+        <item itemvalue="Python tests.Unittests for open_file.API_Test.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -512,30 +521,67 @@
       <workItem from="1558755079415" duration="1297000" />
       <workItem from="1558761461973" duration="25901000" />
       <workItem from="1558878529944" duration="1647000" />
+      <workItem from="1558880217920" duration="334000" />
+      <workItem from="1558957711756" duration="4519000" />
+      <workItem from="1558964340337" duration="1134000" />
+      <workItem from="1558965527351" duration="1438000" />
+      <workItem from="1558967020791" duration="3197000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_open_file_API_Test - 2019.05.27 at 22h 37m 55s.xml">
+      <configuration name="Unittests for open_file.API_Test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_open_file_API_Test - 2019.05.27 at 22h 38m 51s.xml">
+      <configuration name="Unittests for open_file.API_Test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_open_file_API_Test - 2019.05.27 at 22h 40m 10s.xml">
+      <configuration name="Unittests for open_file.API_Test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_open_file_API_Test - 2019.05.27 at 22h 42m 16s.xml">
+      <configuration name="Unittests for open_file.API_Test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_open_file_API_Test - 2019.05.27 at 22h 42m 41s.xml">
+      <configuration name="Unittests for open_file.API_Test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_open_file_API_Test - 2019.05.27 at 22h 43m 05s.xml">
+      <configuration name="Unittests for open_file.API_Test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_open_file_API_Test - 2019.05.27 at 22h 50m 20s.xml">
+      <configuration name="Unittests for open_file.API_Test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Api_demo_API_Test - 2019.05.27 at 23h 09m 04s.xml">
+      <configuration name="Unittests for Api_demo.API_Test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Api_demo_API_Test - 2019.05.27 at 23h 09m 26s.xml">
+      <configuration name="Unittests for Api_demo.API_Test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Api_demo_API_Test - 2019.05.27 at 23h 09m 51s.xml">
+      <configuration name="Unittests for Api_demo.API_Test" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40455000" />
+    <option name="totallyTimeSpent" value="51077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32918552" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2644628" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3123967" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27272728" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28971255" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -550,6 +596,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,24 +612,41 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Hello_python/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hello_python/tupuTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hello_python/OPen_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -765,39 +829,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/Demo.iml" />
-    <entry file="file://$PROJECT_DIR$/Hello_python/demo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hello_python/aaaaaa.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hello_python/BreakDemo.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Hello_python/SweetPotato.py" />
     <entry file="file://$PROJECT_DIR$/Hello_python/Hello_python.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hello_python/AllDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1844">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hello_python/tupuTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hello_python/OPen_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hello_python/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -834,16 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/http_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/Python/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -851,20 +878,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Hello_python/tupuTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello_python/demo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello_python/AllDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello_python/BreakDemo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello_python/OPen_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/APi_Test_Package/API_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="175">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/http_request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/APi_Test_Package/open_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        <state relative-caret-position="297">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Api_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -885,7 +969,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Python</last-edited>
+          <last-edited>Python (bbd.com)|Python</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -897,7 +981,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 3.7 interpreter library</last-edited>
+          <last-edited>Python 3.7 virtualenv at F:\com.BBD\bbd.com interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -909,7 +993,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Python 3.7</last-edited>
+          <last-edited>Python 3.7 virtualenv at F:\com.BBD\bbd.com</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
