@@ -1,10 +1,11 @@
 import xlrd
 import requests
 import unittest
-class API_Test(object):
+class API_Test(unittest.TestCase):
     key = None
     city = None
-    def xlsx(self):
+    @classmethod
+    def setUpClass(self):
         book = xlrd.open_workbook("../data/data1.xlsx")
         res = book.sheet_by_name("Sheet1")
         #print(res.nrows)
@@ -17,8 +18,8 @@ class API_Test(object):
         #print(key)
     def test01(self):
         url = "http://apis.juhe.cn/simpleWeather/query"
-        print(city)
-        print(key)
+        #print(city)
+        #print(key)
         par = {"city":city,"key":key}
         res = requests.get(url,params=par).json()
         print(res)
@@ -27,6 +28,6 @@ class API_Test(object):
 if __name__ == '__main__':
     #API_Test.get_url('self')
     #API_Test.post_url("self")
-    #unittest.main()
-    API_Test.xlsx("self")
-    API_Test.test01('self')
+    unittest.main()
+    #API_Test.xlsx("self")
+    #API_Test.test01('self')

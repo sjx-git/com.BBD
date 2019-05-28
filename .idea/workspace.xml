@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a63005-5517-49ae-96ad-68a2edb38e5f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/APi_Test_Package/Api_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APi_Test_Package/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APi_Test_Package/API_Test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/APi_Test_Package/http_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/APi_Test_Package/http_request.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APi_Test_Package/open_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/APi_Test_Package/open_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbd.com/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/bbd.com/pip-selfcheck.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/data1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APi_Test_Package/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/APi_Test_Package/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,16 +15,16 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/bbd_com$SweetPotato.coverage" NAME="SweetPotato Coverage Results" MODIFIED="1558321226848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
-    <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_open_file_API_Test_test01.coverage" NAME="Unittests for open_file.API_Test.test01 Coverage Results" MODIFIED="1558967584193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_open_file_API_Test_test01.coverage" NAME="Unittests for open_file.API_Test.test01 Coverage Results" MODIFIED="1559004685416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$hanshu.coverage" NAME="hanshu Coverage Results" MODIFIED="1558843906688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
-    <SUITE FILE_PATH="coverage/com_BBD$test.coverage" NAME="test Coverage Results" MODIFIED="1558970335313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$test.coverage" NAME="test Coverage Results" MODIFIED="1559004570295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_Api_demo_API_Test_test02.coverage" NAME="Unittests for Api_demo.API_Test.test02 Coverage Results" MODIFIED="1558967371068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/bbd_com$OPen_demo.coverage" NAME="OPen_demo Coverage Results" MODIFIED="1557388713493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_http_request_tester.coverage" NAME="Unittests for http_request.tester Coverage Results" MODIFIED="1558963676956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$tupuTest.coverage" NAME="tupuTest Coverage Results" MODIFIED="1556950830735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_API_Test_API_Test_test02.coverage" NAME="Unittests for API_Test.API_Test.test02 Coverage Results" MODIFIED="1558964720346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_API_Test_API_Test.coverage" NAME="Unittests for API_Test.API_Test Coverage Results" MODIFIED="1558964856825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
-    <SUITE FILE_PATH="coverage/com_BBD$open_file.coverage" NAME="open_file Coverage Results" MODIFIED="1558969306968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$open_file.coverage" NAME="open_file Coverage Results" MODIFIED="1559004799202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$API_Test.coverage" NAME="API_Test Coverage Results" MODIFIED="1558875007524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_API_Test_API_Test_test01.coverage" NAME="Unittests for API_Test.API_Test.test01 Coverage Results" MODIFIED="1558963584182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_Api_demo_API_Test.coverage" NAME="Unittests for Api_demo.API_Test Coverage Results" MODIFIED="1558969790870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
@@ -49,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="open_file.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="open_file.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APi_Test_Package/open_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="506">
+              <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -61,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APi_Test_Package/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="500">
+              <caret line="26" column="60" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="26" selection-end-column="60" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -102,9 +96,9 @@
         <option value="$PROJECT_DIR$/Hello_python/API_Test.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/http_request.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/API_Test.py" />
-        <option value="$PROJECT_DIR$/APi_Test_Package/open_file.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/Api_demo.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/test.py" />
+        <option value="$PROJECT_DIR$/APi_Test_Package/open_file.py" />
       </list>
     </option>
   </component>
@@ -118,7 +112,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="529" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
@@ -191,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.open_file">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -493,11 +487,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.open_file" />
+        <item itemvalue="Python tests.Unittests for open_file.API_Test.test01" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python tests.Unittests for Api_demo.API_Test" />
-        <item itemvalue="Python.open_file" />
         <item itemvalue="Python tests.Unittests for open_file.API_Test" />
-        <item itemvalue="Python tests.Unittests for open_file.API_Test.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -525,8 +519,17 @@
       <workItem from="1558957711756" duration="4519000" />
       <workItem from="1558964340337" duration="1134000" />
       <workItem from="1558965527351" duration="1438000" />
-      <workItem from="1558967020791" duration="3197000" />
+      <workItem from="1558967020791" duration="3450000" />
+      <workItem from="1559004121238" duration="690000" />
     </task>
+    <task id="LOCAL-00001" summary="unknown">
+      <created>1558970411381</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558970411381</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -562,41 +565,42 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51077000" />
+    <option name="totallyTimeSpent" value="52020000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3123967" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27272728" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28971255" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289256" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31188658" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27272728" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20735608" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32824427" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,6 +644,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="unknown" />
+    <option name="LAST_COMMIT_MESSAGE" value="unknown" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -725,13 +733,7 @@
     <entry file="file://$PROJECT_DIR$/Hello_python/aaaaaa.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/API_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/API_Test.py" />
     <entry file="file://$PROJECT_DIR$/APi_Test_Package/http_request.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -905,16 +907,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/API_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/API_Test.py" />
     <entry file="file://$PROJECT_DIR$/APi_Test_Package/http_request.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -922,30 +915,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/open_file.py">
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Api_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="825">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="26" column="60" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="26" selection-end-column="60" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Api_demo.py">
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/open_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="506">
+          <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
