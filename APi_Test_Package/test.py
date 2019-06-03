@@ -2,6 +2,7 @@ import xlrd
 import requests
 import unittest
 class API_Test(unittest.TestCase):
+    '''本类仅适用于调试使用  可以直接覆盖原测试方法'''
     key = None
     city = None
     @classmethod
