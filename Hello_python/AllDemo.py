@@ -1,3 +1,6 @@
+'''
+此demo 包含 基本架构及各种使用方法
+'''
 #列别名  当模块名很长的时候  可以用as 重新命名
 import time as  tt
 tt.sleep(1)
@@ -68,8 +71,7 @@ class Demo(object):#类方法的命名，大驼峰的方式
            print(name2+name3)
           ret =  a(*args,**kwargs)
           return ret
-       return c
-       
+       return c       
    @d#等价于a=d(a)
    def a(a,b):
        print("a= %d,b=%d"%(a,b))
@@ -97,3 +99,138 @@ if __name__ == '__main_':
     demo.all_demo()
     #调用类方法，第二种
     Demo.all_demo()
+'''
+打开文件demo
+def OpenDemo():
+    #打开一个文件
+    old_name = input("请输入你要打开的文件名字：")
+    #根据输入的文件名称，通过截取不带后缀的名称+复件两字+截取后缀 组成新的文件名称
+    index = old_name.rfind(".")
+    New_name = old_name[:index] + ("(复件)") + old_name[index:]
+    #打开输入的文件，并写入一些东西
+    f = open(old_name,"w+")
+    f.write("Hello  World")
+    #先关闭才能读取
+    f.close()
+    #读取出文件内容
+    a = open(old_name,"r+")
+    h = a.read()
+    print(old_name + "内容是："+ h)
+    #打开输入的文件，并写入一些东西
+    n = open(New_name,"w+")
+    n.write(h)
+    n.close()
+    #读取出文件内容
+    new_a = open(New_name,"r")
+    print(New_name + "内容是："+ new_a.read())
+#if __name__ == 'main':
+OpenDemo()
+'''
+
+'''
+http请求demo 包含post和get
+
+import requests
+class tester(object):
+    def get_url(self):
+        url = requests.get('http://192.168.8.240:8088/api/json')
+        json_res = url.json()["jobs"][0]
+        js = dict(json_res).values()
+        print(js)
+        print(dict(json_res).keys())
+    def post_url(self):
+        url = "http://192.168.8.240:8088/j_acegi_security_check"
+        post_data = requests.post(url,data={"j_username":"sjx","j_password":"sjx@123A","from":"/","Submit":"登录"},json={})
+        #print(post_data.text)
+        r = post_data.status_code
+        print(r)
+if __name__ == '__main__':
+    tester.get_url('self')
+    tester.post_url('self')
+'''
+
+'''
+单元测试  unittest 使用demo
+
+import requests
+import unittest
+class API_Test(unittest.TestCase):
+    Appkey = "959e4fc1aa5787e67ae143901b2d2673"
+    def setUp(self):
+        print("开始")
+    def tearDown(self):
+        print("结束")
+    def test01(self):
+        url = "http://apis.juhe.cn/simpleWeather/query"
+        #city = input("请输入要查询的城市名称：")
+        par = {"city":"北京","key":API_Test.Appkey}
+        res = requests.get(url,params=par).json()
+        print(res['result']['realtime']['info'])
+        self.assertIn('晴',res['result']['realtime']['info'])#assertIn 判断时候包含
+    def test02(self):
+        url = "http://apis.juhe.cn/simpleWeather/wids"
+        post_res = requests.post(url,data ={"key":API_Test.Appkey}).json()
+        print(post_res['reason'])
+        self.assertEqual(post_res['reason'],'查询成功')#assertEqual 判断是否一致
+    def re_session(self):
+        pass
+        """
+        当有需要验证信息比如：session的时候，就需要用
+        s = request.session() 来保持和下一个接口建立相同的链接通道
+        res = s.get(url) 正常用就好了
+        导入正则包 re 
+        usersession = re.findall(r'正则表达式(.+？)'，res)
+        此时的session就可以用了  取出的是列表  用usersession[0]
+        """
+if __name__ == '__main__':
+    #API_Test.get_url('self')
+    #API_Test.post_url("self")
+    unittest.main()
+'''
+
+'''
+数据和代码分离之读取Excel表 用到xlrd 使用demo
+
+import xlrd
+import requests
+import unittest
+class API_Test(unittest.TestCase):
+    city = ''
+    key = ''
+    def setUp(self):
+        print("开始")
+    def tearDown(self):
+        print("结束")
+    @classmethod
+    def setUpClass(self):
+        book = xlrd.open_workbook("../data/data1.xlsx")#所要读取的Excel表所在地址 同级用/  非同级用..   另外Excel表需要是xlsx格式,并且内容需要文本格式
+        res = book.sheet_by_name("Sheet1")#定位读取的表格 可以用name 也可以用index
+        #print(res.nrows)#统计有多少行
+        #print(res.row_values(1)[0])
+        global city
+        city = res.row_values(1)[0]#读取第几行的数据 从0开始
+        global key
+        key = res.col_values(1)[1]#读取第几列的数据 从0开始
+        #print(city)
+        #print(key)
+    def test01(self):
+        url = "http://apis.juhe.cn/simpleWeather/query"
+        #print(city)
+        #print(key)
+        par = {"city":city,"key":key}
+        res = requests.get(url,params=par).json()
+        print(res)
+        print(res['result']['realtime']['info'])
+        self.assertIn('晴',res['result']['realtime']['info'])
+    def test02(self):
+        url = "http://apis.juhe.cn/simpleWeather/wids"
+        post_res = requests.post(url,data ={"key":key}).json()
+        print(post_res['reason'])
+        self.assertEqual(post_res['reason'],'查询成功')
+if __name__ == '__main__':
+    #API_Test.get_url('self')
+    #API_Test.post_url("self")
+    unittest.main()
+    #API_Test.xlsx("self")
+
+'''
