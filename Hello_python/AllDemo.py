@@ -234,3 +234,15 @@ if __name__ == '__main__':
     #API_Test.xlsx("self")
 
 '''
+
+'''
+在字符串中,取出汉字,
+import re
+class test(object):
+    def demo(self):
+        a = '!@$你&......*好&^*未(0)kill来~!%$,./'
+        str = re.sub("[A-Za-z0-9\%\(\)\,\。\.\@\$\&\*\~\^\/]", "",a)
+        print(str.lstrip("!"))
+if __name__ == '__main__':
+    test.demo('self')
+'''
