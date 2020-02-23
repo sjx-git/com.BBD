@@ -1,12 +1,12 @@
 list = ['hi','world','are','you','ok?']
 list1 = ['Good']
-'添加在最后'
+'添加单个字符或者列表 在最后，会将列表整个加进去[[新加的列表]]'
 list.append('yes')
 print(list)
 '按下标添加'
 list.insert(0,'haha')
 print(list)
-'合并列表'
+'只能合并列表，不能添加单个字符，不同于append ，[,新增的列表数据，合并到一起]'
 list3  = list1 +list
 print(list3)
 list.extend(list1)

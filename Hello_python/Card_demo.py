@@ -33,8 +33,14 @@ while True:
                 print('%s\t%s\t%d\t%s'%(temp['name'],temp['address'],temp['phone'],temp['sex']))
                 num += 1
                 break
+        else:#方法二
+            print('查无此人')
+        '''方法一
         if num == 0:
             print('查无此人')
+        '''
+
+
     if num == 4:
         name_new = input('请输入要修改的名字')
     if num == 5:
