@@ -126,8 +126,8 @@
       <file leaf-file-name="recursion_demo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hello_python/recursion_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="300">
+              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -625,7 +625,7 @@
       <workItem from="1559111943712" duration="790000" />
       <workItem from="1559528455747" duration="1522000" />
       <workItem from="1566205674421" duration="3676000" />
-      <workItem from="1582357028191" duration="20576000" />
+      <workItem from="1582357028191" duration="21119000" />
     </task>
     <task id="LOCAL-00001" summary="加 类描述">
       <created>1559557528561</created>
@@ -670,7 +670,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68980000" />
+    <option name="totallyTimeSpent" value="69523000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -683,7 +683,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
@@ -694,9 +693,9 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32715377" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26390404" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26390404" />
       <window_info anchor="right" id="Coverage" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32824427" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32824427" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
@@ -929,8 +928,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hello_python/recursion_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="300">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
