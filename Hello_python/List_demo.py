@@ -31,3 +31,13 @@ if  'yes' in list:
     print('查到了')
 if  'gun' not in list:
     print('不在这里边')
+
+'排序 从小到大'
+list.sort()
+print(list)
+'排序 从小到大'
+list.sort(reverse=True)
+print(list)
+'排序 颠倒位置'
+list.reverse()
+print(list)
