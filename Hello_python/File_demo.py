@@ -26,16 +26,20 @@ def OpenDemo():
     a = open(old_name,"r+")
     #打开输入的文件，并写入一些东西
     n = open(New_name,"w+")
-    while True:
-        h = a.read(1024)
-        #print(old_name + "内容是："+ h) #for test
-        n.write(h)
-        if len(h)==0:
-            break
-    n.close()
-    a.close()
-    #读取出文件内容
-    #new_a = open(New_name,"r")#for test
-    #print(New_name + "内容是："+ new_a.read())
+    try:#为了确保出现异常时，程序可以正常运行
+        while True:
+            h = a.read(1024)#当文件过大时，使用 h = a.read就会出现内存溢出而出现异常
+            #print(old_name + "内容是："+ h) #for test
+            n.write(h)
+            if len(h)==0:
+                break
+    except Exception as res:#捕获出抛出的异常 用as 列表名的同义
+        print('不能一次性读出所有数据')
+    finally:
+        n.close()
+        a.close()
+        #读取出文件内容
+        #new_a = open(New_name,"r")#for test
+        #print(New_name + "内容是："+ new_a.read())
 #if __name__ == 'main':
 OpenDemo()
