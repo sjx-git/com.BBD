@@ -2,17 +2,17 @@ list7 = ['hi', 'world', 'are', 'you', 'ok?', '11', '22', '33', '11', '22', '33',
 list1 = ['Good']
 '添加单个字符或者列表 在最后，会将列表整个加进去[[新加的列表]]'
 list7.append('yes')
-print(list7)
+#print(list7)
 '按下标添加'
 list7.insert(0, 'haha')
-print(list7)
+#print(list7)
 '只能合并列表，不能添加单个字符，不同于append ，[,新增的列表数据，合并到一起]'
 list3  = list1 + list7
 print(list3)
 list7.extend(list1)
 print(list7)
 
-'删除最后一个'
+'删除最后一个'                                                
 list7.pop()
 print(list7)
 '删除关键字'
