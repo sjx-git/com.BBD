@@ -620,7 +620,7 @@
       <workItem from="1559528455747" duration="1522000" />
       <workItem from="1566205674421" duration="3676000" />
       <workItem from="1582357028191" duration="34523000" />
-      <workItem from="1582707454320" duration="8781000" />
+      <workItem from="1582707454320" duration="8821000" />
     </task>
     <task id="LOCAL-00001" summary="加 类描述">
       <created>1559557528561</created>
@@ -665,7 +665,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91708000" />
+    <option name="totallyTimeSpent" value="91748000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -678,7 +678,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
@@ -689,8 +688,8 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32715377" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3586777" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3272727" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3586777" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32561985" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.204236" />
