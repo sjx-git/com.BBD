@@ -6,9 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1a63005-5517-49ae-96ad-68a2edb38e5f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Hello_python/Property_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hello_python/Shegnchengshi_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hello_python/Zhuangshiqi_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello_python/List_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello_python/List_demo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,12 +26,14 @@
     <SUITE FILE_PATH="coverage/com_BBD$File_demo.coverage" NAME="File_demo Coverage Results" MODIFIED="1582640046443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$hanshu.coverage" NAME="hanshu Coverage Results" MODIFIED="1558843906688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/bbd_com$Property_demo.coverage" NAME="Property_demo Coverage Results" MODIFIED="1582785202946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/bbd_com$Shegnchengshi_demo.coverage" NAME="Shegnchengshi_demo Coverage Results" MODIFIED="1582876113025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Dictionaries_demo.coverage" NAME="Dictionaries_demo Coverage Results" MODIFIED="1582427380514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/bbd_com$SweetPotato.coverage" NAME="SweetPotato Coverage Results" MODIFIED="1558321226848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$DemoProject.coverage" NAME="DemoProject Coverage Results" MODIFIED="1582357175924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/" />
     <SUITE FILE_PATH="coverage/bbd_com$List_demo.coverage" NAME="List_demo Coverage Results" MODIFIED="1582770065910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Str_demo.coverage" NAME="Str_demo Coverage Results" MODIFIED="1582359240495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Card_demo.coverage" NAME="Card_demo Coverage Results" MODIFIED="1582422504659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/bbd_com$Zhuangshiqi_demo.coverage" NAME="Zhuangshiqi_demo Coverage Results" MODIFIED="1582855635703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Super_demo.coverage" NAME="Super_demo Coverage Results" MODIFIED="1582624513606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$If_demo.coverage" NAME="If_demo Coverage Results" MODIFIED="1582360576373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Tuple_demo.coverage" NAME="Tuple_demo Coverage Results" MODIFIED="1582429078915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
@@ -69,11 +71,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Property_demo.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Property_demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hello_python/Property_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="405">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Zhuangshiqi_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hello_python/Zhuangshiqi_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shegnchengshi_demo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hello_python/Shegnchengshi_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -101,24 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
               <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parameter_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hello_python/Parameter_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recursion_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hello_python/recursion_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -178,6 +180,8 @@
         <option value="$PROJECT_DIR$/Hello_python/File_demo.py" />
         <option value="$PROJECT_DIR$/Hello_python/List_demo.py" />
         <option value="$PROJECT_DIR$/Hello_python/Property_demo.py" />
+        <option value="$PROJECT_DIR$/Hello_python/Zhuangshiqi_demo.py" />
+        <option value="$PROJECT_DIR$/Hello_python/Shegnchengshi_demo.py" />
       </list>
     </option>
   </component>
@@ -190,7 +194,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -250,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Property_demo">
+  <component name="RunManager" selected="Python.Shegnchengshi_demo">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -361,25 +365,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Lambda_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Hello_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hello_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/Lambda_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="List_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Hello_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -418,7 +403,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Super_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Shegnchengshi_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Hello_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -431,7 +416,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/Super_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/Shegnchengshi_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Zhuangshiqi_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Hello_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hello_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/Zhuangshiqi_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -580,18 +584,18 @@
     <list>
       <item itemvalue="Python.DemoProject" />
       <item itemvalue="Python.List_demo" />
-      <item itemvalue="Python.Lambda_demo" />
       <item itemvalue="Python.File_demo" />
-      <item itemvalue="Python.Super_demo" />
       <item itemvalue="Python.Property_demo" />
+      <item itemvalue="Python.Zhuangshiqi_demo" />
+      <item itemvalue="Python.Shegnchengshi_demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Shegnchengshi_demo" />
+        <item itemvalue="Python.Zhuangshiqi_demo" />
         <item itemvalue="Python.Property_demo" />
         <item itemvalue="Python.List_demo" />
         <item itemvalue="Python.File_demo" />
-        <item itemvalue="Python.Super_demo" />
-        <item itemvalue="Python.Lambda_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -620,7 +624,7 @@
       <workItem from="1559528455747" duration="1522000" />
       <workItem from="1566205674421" duration="3676000" />
       <workItem from="1582357028191" duration="34523000" />
-      <workItem from="1582707454320" duration="8821000" />
+      <workItem from="1582707454320" duration="17059000" />
     </task>
     <task id="LOCAL-00001" summary="加 类描述">
       <created>1559557528561</created>
@@ -665,7 +669,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91748000" />
+    <option name="totallyTimeSpent" value="99986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -678,6 +682,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
@@ -688,8 +693,8 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32715377" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3586777" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32561985" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32396695" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32561985" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.204236" />
@@ -744,12 +749,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="35" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Hello_python/tupuTest.py" />
-    <entry file="file://$PROJECT_DIR$/Hello_python/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Hello_python/SweetPotato.py" />
     <entry file="file://$PROJECT_DIR$/Hello_python/tupuTest.py" />
     <entry file="file://$PROJECT_DIR$/Hello_python/OPen_demo.py" />
@@ -930,8 +933,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hello_python/Property_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="405">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello_python/Zhuangshiqi_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello_python/Shegnchengshi_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
         </state>
       </provider>
     </entry>
