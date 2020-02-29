@@ -34,8 +34,9 @@ if  'gun' not in list7:
 
 '排序 从小到大'
 list7.sort()
+print(sorted(list7))
 print(list7)
-'排序 从小到大'
+'排序 从大到小'
 list7.sort(reverse=True)
 print(list7)
 '排序 颠倒位置'
