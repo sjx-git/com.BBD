@@ -11,7 +11,6 @@ class Auto_test(unittest.TestCase):
 
     Test Fixture
         用于测试环境的准备和恢复还原, 一般用到下面几个函数。
-
         setUp()：准备环境，执行每个测试用例的前置条件
         tearDown()：环境还原，执行每个测试用例的后置条件
         setUpClass()：必须使用@classmethod装饰器，所有case执行的前置条件，只运行一次
@@ -49,19 +48,19 @@ class Auto_test(unittest.TestCase):
         TXT报告： 如上txt 分支，当前目录会生成ut_log.txt文件
         HTML 报告：如上html 分支，终端上打印运行信息同时会在当前目录生成report文件夹， 文件夹下有test.html和test.log文件
     '''
-    @classmethod
-    def setUpClass(cls):
-        print ('-'*20 + '开始测试' + '-'*20 +'\n')
     key = '959e4fc1aa5787e67ae143901b2d2673'
     get_url = 'http://apis.juhe.cn/simpleWeather/wids'
     url1 = 'http://apis.juhe.cn/simpleWeather/query'
     city = '1'
     @classmethod
+    def setUpClass(cls):
+        print ('-'*20 + '开始测试' + '-'*20 +'\n')
+
+    @classmethod
     def tearDownClass(cls):
         print ('-'*20 + '结束测试' + '-'*20 +'\n')
 
     def setUp(self):
-
         print ('-'*20 + '开始执行测试用例' + '-'*20 +'\n')
 
     def tearDown(self):
@@ -100,4 +99,6 @@ class Auto_test(unittest.TestCase):
                     print('输入不正确')
 
 if __name__ == '__main__':
-    Auto_test()
+    # verbosity=*：默认是1；设为0，则不输出每一个用例的执行结果；2-输出详细的执行结果
+    unittest.main(verbosity=1)
+    unittest.TestSuite
