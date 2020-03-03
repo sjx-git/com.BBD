@@ -1,3 +1,4 @@
+#!usr/bin/env python
 import requests
 import unittest
 class Auto_test(unittest.TestCase):
