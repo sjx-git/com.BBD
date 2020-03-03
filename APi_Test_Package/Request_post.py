@@ -28,5 +28,4 @@ class Api_test1(unittest.TestCase):
                 else:
                     print('输入不正确')
 if __name__ == '__main__':
-    f = Api_test1()
-    f.test_post(input('请输入要查询的城市名称或者数字：'))
+     Api_test1().test_post('1')
