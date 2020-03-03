@@ -1,4 +1,4 @@
-import Request_get,Request_post
+from APi_Test_Package import Request_get,Request_post
 import unittest
 class Auto_test(unittest.TestCase):
     @classmethod
