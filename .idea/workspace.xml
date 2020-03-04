@@ -6,7 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1a63005-5517-49ae-96ad-68a2edb38e5f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/APi_Test_Package/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/APi_Test_Package/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,20 +56,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/APi_Test_Package/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="50">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#101#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,8 +83,8 @@
       <file leaf-file-name="Auto_TestUnitest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="400">
+              <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
               <folding>
                 <element signature="e#22#75#0" expanded="true" />
               </folding>
@@ -101,8 +95,8 @@
       <file leaf-file-name="Auto_TestSuite.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="64">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -174,8 +168,9 @@
         <option value="$PROJECT_DIR$/APi_Test_Package/main.py" />
         <option value="$PROJECT_DIR$/bbd.com/__init__.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/__init__.py" />
+        <option value="$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -210,11 +205,6 @@
               <item name="com.BBD" type="b2602c69:ProjectViewProjectNode" />
               <item name="com.BBD" type="462c0819:PsiDirectoryNode" />
               <item name="APi_Test_Package" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.BBD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.BBD" type="462c0819:PsiDirectoryNode" />
-              <item name="Hello_python" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1454,7 +1444,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123672000" />
+    <option name="totallyTimeSpent" value="124239000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1466,7 +1456,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
@@ -1852,23 +1842,10 @@
     <entry file="file://$PROJECT_DIR$/bbd.com/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py">
+    <entry file="file://$PROJECT_DIR$/Hello_python/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="e#22#75#0" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1882,17 +1859,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        <state relative-caret-position="64">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hello_python/__init__.py">
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="400">
+          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding>
+            <element signature="e#22#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1900,6 +1883,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
