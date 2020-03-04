@@ -1,5 +1,4 @@
-#!usr/bin/env python
-import requests
+from APi_Test_Package import Request_get,Request_post
 import unittest
 class Auto_test(unittest.TestCase):
     '''
@@ -49,10 +48,7 @@ class Auto_test(unittest.TestCase):
         TXT报告： 如上txt 分支，当前目录会生成ut_log.txt文件
         HTML 报告：如上html 分支，终端上打印运行信息同时会在当前目录生成report文件夹， 文件夹下有test.html和test.log文件
     '''
-    key = '959e4fc1aa5787e67ae143901b2d2673'
-    get_url = 'http://apis.juhe.cn/simpleWeather/wids'
-    url1 = 'http://apis.juhe.cn/simpleWeather/query'
-    city = '1'
+
     @classmethod
     def setUpClass(cls):
         print ('-'*20 + '开始测试' + '-'*20 +'\n')
@@ -68,38 +64,10 @@ class Auto_test(unittest.TestCase):
         print ('-'*20 + '结束执行测试用例' + '-'*20 +'\n')
 
     def test_get(self):
-        par = {"key":self.key}
-        ret = requests.get(self.get_url,params = par).json()
-        #print( ret)
-        if self.assertIn(ret['reason'],'查询成功') == None:##assertIn 判断是否包含在里边 ,true的情况下会返回None 错误会报错
-            print('查询成功！')
+        Request_get.Api_test().test_get()
 
     def test_post(self):
-        #判断city是否为数字或者为汉字  （是否为字母 (uchar >= u'\u0041' and uchar<=u'\u005a') or (uchar >= u'\u0061' and uchar<=u'\u007a')）
-        if (self.city >= u'\u4e00' and self.city <=u'\u9fa5') or (self.city >= u'\u0030' and self.city<=u'\u0039' ) :
-            par = {'key':self.key,'city':self.city}
-            rets = requests.post(self.url1,data=par).json()
-            #print(rets)
-            '''        
-            if rets['error_code'] == 207301:
-                print('暂不支持该城市')
-            else:
-                eq = rets['result']['city']
-                if self.assertTrue(eq,city) == None:##assertEqual 判断是否一致 ,true的情况下会返回None 错误会报错
-                    print('查询成功')
-            '''
-            try:
-                eq = rets['result']['city']
-                if self.assertTrue(eq,self.city) == None:##assertEqual 判断是否一致 ,true的情况下会返回None 错误会报错
-                    print('查询成功')
-            except:
-                #print(rets)
-                if rets['error_code'] == 207301:
-                    print('暂不支持该城市')
-                else:
-                    print('输入不正确')
-
+        Request_post.Api_test1().test_post('1')
 if __name__ == '__main__':
     # verbosity=*：默认是1；设为0，则不输出每一个用例的执行结果；2-输出详细的执行结果
-    unittest.main(verbosity=1)
-    unittest.TestSuite
+    unittest.main(verbosity=2)
