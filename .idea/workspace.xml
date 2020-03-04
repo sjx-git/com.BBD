@@ -5,10 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/Hello_python/Lambda_demo.py" line="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1a63005-5517-49ae-96ad-68a2edb38e5f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py" beforeDir="false" afterPath="$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py" afterDir="false" />
-    </list>
+    <list default="true" id="c1a63005-5517-49ae-96ad-68a2edb38e5f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +23,7 @@
     <SUITE FILE_PATH="coverage/bbd_com$SweetPotato.coverage" NAME="SweetPotato Coverage Results" MODIFIED="1558321226848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$DemoProject.coverage" NAME="DemoProject Coverage Results" MODIFIED="1582357175924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/" />
     <SUITE FILE_PATH="coverage/bbd_com$List_demo.coverage" NAME="List_demo Coverage Results" MODIFIED="1582770065910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
-    <SUITE FILE_PATH="coverage/bbd_com$Unittests_in_Auto_TestReport_py.coverage" NAME="Unittests in Auto_TestReport.py Coverage Results" MODIFIED="1583313274456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/bbd_com$Unittests_in_Auto_TestReport_py.coverage" NAME="Unittests in Auto_TestReport.py Coverage Results" MODIFIED="1583313924429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$Str_demo.coverage" NAME="Str_demo Coverage Results" MODIFIED="1582359240495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/bbd_com$Unnamed__1_.coverage" NAME="Unnamed (1) Coverage Results" MODIFIED="1583301237915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/bbd_com$Unittests_in_AutoTest_py.coverage" NAME="Unittests in AutoTest.py Coverage Results" MODIFIED="1583285383618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
@@ -37,7 +34,7 @@
     <SUITE FILE_PATH="coverage/com_BBD$Global_variable_demo.coverage" NAME="Global variable_demo Coverage Results" MODIFIED="1582449972979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$tupuTest.coverage" NAME="tupuTest Coverage Results" MODIFIED="1556950830735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Lambda_demo.coverage" NAME="Lambda_demo Coverage Results" MODIFIED="1582512170044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
-    <SUITE FILE_PATH="coverage/bbd_com$Unittests_for_Auto_TestUnitest_Auto_test.coverage" NAME="Unittests for Auto_TestUnitest.Auto_test Coverage Results" MODIFIED="1583313262596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/bbd_com$Unittests_for_Auto_TestUnitest_Auto_test.coverage" NAME="Unittests for Auto_TestUnitest.Auto_test Coverage Results" MODIFIED="1583313915841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$recursion_demo.coverage" NAME="recursion_demo Coverage Results" MODIFIED="1582461654942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$File_demo.coverage" NAME="File_demo Coverage Results" MODIFIED="1582640046443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/bbd_com$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1583285253680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
@@ -59,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Auto_TestUnitest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Auto_TestUnitest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="6" />
+            <state relative-caret-position="135">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -106,11 +103,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Auto_TestReport.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Auto_TestReport.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="162">
+              <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+              <folding>
+                <element signature="e#302#323#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,8 +167,8 @@
         <option value="$PROJECT_DIR$/APi_Test_Package/__init__.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/AutoTest.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py" />
-        <option value="$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py" />
+        <option value="$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py" />
       </list>
     </option>
   </component>
@@ -181,7 +181,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -594,8 +594,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in Auto_TestReport.py" />
-        <item itemvalue="Python tests.Unittests for Auto_TestSuite.Test_Suite" />
         <item itemvalue="Python tests.Unittests for Auto_TestUnitest.Auto_test" />
+        <item itemvalue="Python tests.Unittests for Auto_TestSuite.Test_Suite" />
         <item itemvalue="Python tests.Unittests in Auto_TestUnitest.py" />
         <item itemvalue="Python tests.Unittests for Auto_TestUnitest.Auto_test.test_post" />
       </list>
@@ -629,7 +629,7 @@
       <workItem from="1582707454320" duration="17059000" />
       <workItem from="1583225010388" duration="602000" />
       <workItem from="1583284703368" duration="16437000" />
-      <workItem from="1583310124670" duration="3501000" />
+      <workItem from="1583310124670" duration="3841000" />
     </task>
     <task id="LOCAL-00001" summary="加 类描述">
       <created>1559557528561</created>
@@ -663,12 +663,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_Auto_TestReport_py - 2020.03.04 at 16h 53m 05s.xml">
-      <configuration name="Unittests in Auto_TestReport.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Auto_TestReport_py - 2020.03.04 at 16h 55m 48s.xml">
-      <configuration name="Unittests in Auto_TestReport.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_Auto_TestReport_py - 2020.03.04 at 16h 57m 53s.xml">
       <configuration name="Unittests in Auto_TestReport.py" configurationId="tests" />
     </history-entry>
@@ -693,9 +687,15 @@
     <history-entry file="Unittests_in_Auto_TestReport_py - 2020.03.04 at 17h 14m 35s.xml">
       <configuration name="Unittests in Auto_TestReport.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_Auto_TestUnitest_Auto_test - 2020.03.04 at 17h 25m 17s.xml">
+      <configuration name="Unittests for Auto_TestUnitest.Auto_test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Auto_TestReport_py - 2020.03.04 at 17h 25m 25s.xml">
+      <configuration name="Unittests in Auto_TestReport.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121334000" />
+    <option name="totallyTimeSpent" value="121674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,7 +708,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
@@ -718,9 +717,9 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37024793" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43801653" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32715377" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.15867768" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.46115702" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
@@ -1012,19 +1011,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py">
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="135">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py">
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="6" />
+        <state relative-caret-position="162">
+          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#302#323#0" expanded="true" />
           </folding>
         </state>
       </provider>
