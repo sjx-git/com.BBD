@@ -7,7 +7,6 @@ Python 3.x版本需要做适配。
     比较简单，将HTMLTestRunner.py放到python 安装路径的lib下即可。
 ubuntu下，我放到了如下路径：/usr/lib/python3.7。
 '''
-
 import HTMLTestRunner
 import unittest
 from APi_Test_Package import Request_get,Request_post

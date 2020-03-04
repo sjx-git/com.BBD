@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1a63005-5517-49ae-96ad-68a2edb38e5f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py" beforeDir="false" afterPath="$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APi_Test_Package/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/APi_Test_Package/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +26,11 @@
     <SUITE FILE_PATH="coverage/com_BBD$Ui_demo.coverage" NAME="Ui_demo Coverage Results" MODIFIED="1583036565229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_Auto_TestUnitest_Auto_test.coverage" NAME="Unittests for Auto_TestUnitest.Auto_test Coverage Results" MODIFIED="1583328869166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_Auto_TestSuite_Test_Suite.coverage" NAME="Unittests for Auto_TestSuite.Test_Suite Coverage Results" MODIFIED="1583324670920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
-    <SUITE FILE_PATH="coverage/com_BBD$Unittests_in_Request_get_py.coverage" NAME="Unittests in Request_get.py Coverage Results" MODIFIED="1583325783954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_in_Request_get_py.coverage" NAME="Unittests in Request_get.py Coverage Results" MODIFIED="1583329241493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$Super_demo.coverage" NAME="Super_demo Coverage Results" MODIFIED="1582624513606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1583242989612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$Global_variable_demo.coverage" NAME="Global variable_demo Coverage Results" MODIFIED="1582449972979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
-    <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_Auto_TestReport_Test_one.coverage" NAME="Unittests for Auto_TestReport.Test_one Coverage Results" MODIFIED="1583326491242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_Auto_TestReport_Test_one.coverage" NAME="Unittests for Auto_TestReport.Test_one Coverage Results" MODIFIED="1583329161678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$List_demo.coverage" NAME="List_demo Coverage Results" MODIFIED="1582964721506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$If_demo.coverage" NAME="If_demo Coverage Results" MODIFIED="1582360576373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Request_post.coverage" NAME="Request_post Coverage Results" MODIFIED="1582988799080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
@@ -37,9 +39,10 @@
     <SUITE FILE_PATH="coverage/com_BBD$Gc_demo.coverage" NAME="Gc_demo Coverage Results" MODIFIED="1582964646324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_AutoTest_Auto_test.coverage" NAME="Unittests for AutoTest.Auto_test Coverage Results" MODIFIED="1583243138424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$main.coverage" NAME="main Coverage Results" MODIFIED="1583324014390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_in_Auto_TestUnitest_py.coverage" NAME="Unittests in Auto_TestUnitest.py Coverage Results" MODIFIED="1583329313838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$Set_demo.coverage" NAME="Set_demo Coverage Results" MODIFIED="1582966448691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$hanshu.coverage" NAME="hanshu Coverage Results" MODIFIED="1558843906688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
-    <SUITE FILE_PATH="coverage/com_BBD$Unittests_in_Auto_TestSuite_py.coverage" NAME="Unittests in Auto_TestSuite.py Coverage Results" MODIFIED="1583325892336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_in_Auto_TestSuite_py.coverage" NAME="Unittests in Auto_TestSuite.py Coverage Results" MODIFIED="1583329294798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/bbd_com$List_demo.coverage" NAME="List_demo Coverage Results" MODIFIED="1582770065910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Unittests_for_Request_post_Api_test1_test_post.coverage" NAME="Unittests for Request_post.Api_test1.test_post Coverage Results" MODIFIED="1583240712203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$Unittests_in_AutoTest_py.coverage" NAME="Unittests in AutoTest.py Coverage Results" MODIFIED="1583240866361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
@@ -48,23 +51,25 @@
     <SUITE FILE_PATH="coverage/com_BBD$tupuTest.coverage" NAME="tupuTest Coverage Results" MODIFIED="1556950830735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Card_demo.coverage" NAME="Card_demo Coverage Results" MODIFIED="1582422504659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$recursion_demo.coverage" NAME="recursion_demo Coverage Results" MODIFIED="1582461654942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unnamed__1_.coverage" NAME="Unnamed (1) Coverage Results" MODIFIED="1583329423655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$API_Test.coverage" NAME="API_Test Coverage Results" MODIFIED="1558875007524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Dictionaries_demo.coverage" NAME="Dictionaries_demo Coverage Results" MODIFIED="1582427380514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$File_demo.coverage" NAME="File_demo Coverage Results" MODIFIED="1582640046443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_BBD$report.coverage" NAME="report Coverage Results" MODIFIED="1583329738492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$Lambda_demo.coverage" NAME="Lambda_demo Coverage Results" MODIFIED="1582512170044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Tuple_demo.coverage" NAME="Tuple_demo Coverage Results" MODIFIED="1582429078915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_BBD$Unittests_in_Request_post_py.coverage" NAME="Unittests in Request_post.py Coverage Results" MODIFIED="1583240698045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_BBD$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1583325133944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bbd_com$Unittests_in_open_file_py.coverage" NAME="Unittests in open_file.py Coverage Results" MODIFIED="1559528494285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
-    <SUITE FILE_PATH="coverage/com_BBD$Unittests_in_Auto_TestReport_py.coverage" NAME="Unittests in Auto_TestReport.py Coverage Results" MODIFIED="1583325865768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_BBD$Unittests_in_Auto_TestReport_py.coverage" NAME="Unittests in Auto_TestReport.py Coverage Results" MODIFIED="1583329624035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" selection-start-line="5" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="300">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#105#0" expanded="true" />
               </folding>
@@ -72,26 +77,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Auto_TestReport.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Auto_TestReport.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="-69">
+              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
-                <element signature="e#302#312#0" expanded="true" />
+                <element signature="e#302#323#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Auto_TestSuite.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APi_Test_Package/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auto_TestSuite.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-              <folding>
-                <element signature="e#10#25#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="775">
+              <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -99,11 +110,8 @@
       <file leaf-file-name="Auto_TestUnitest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-              <folding>
-                <element signature="e#1#54#0" />
-              </folding>
+            <state relative-caret-position="250">
+              <caret line="11" column="16" selection-start-line="10" selection-end-line="11" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -170,12 +178,12 @@
         <option value="$PROJECT_DIR$/APi_Test_Package/__main__.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/main.py" />
         <option value="$PROJECT_DIR$/bbd.com/__init__.py" />
-        <option value="$PROJECT_DIR$/APi_Test_Package/__init__.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/Request_get.py" />
-        <option value="$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py" />
+        <option value="$PROJECT_DIR$/APi_Test_Package/__init__.py" />
+        <option value="$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py" />
       </list>
     </option>
   </component>
@@ -200,6 +208,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -213,17 +222,42 @@
               <item name="com.BBD" type="462c0819:PsiDirectoryNode" />
               <item name="APi_Test_Package" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="com.BBD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.BBD" type="462c0819:PsiDirectoryNode" />
+              <item name="bbd.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.BBD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.BBD" type="462c0819:PsiDirectoryNode" />
+              <item name="bbd.com" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.BBD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.BBD" type="462c0819:PsiDirectoryNode" />
+              <item name="bbd.com" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.BBD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.BBD" type="462c0819:PsiDirectoryNode" />
+              <item name="bbd.com" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="setuptools-39.1.0-py3.7.egg" type="ab9368bb:PsiFileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/APi_Test_Package/Request_post.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -240,119 +274,6 @@
       <recent name="F:\com.BBD\APi_Test_Package" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/APi_Test_Package/__pycache__/Auto_TestReport.cpython-37.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/APi_Test_Package/__pycache__/Request_get.cpython-37.pyc</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -365,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for Auto_TestUnitest.Auto_test">
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -438,26 +359,27 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
     </configuration>
-    <configuration name="DemoProject" type="PythonConfigurationType" factoryName="Python">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/bbd.com/Scripts/python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APi_Test_Package" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="report" type="PythonConfigurationType" factoryName="Python">
+      <module name="Hello_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -468,28 +390,8 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APi_Test_Package/Request_post.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="Demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -539,76 +441,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-    </configuration>
-    <configuration name="Unittests for Auto_TestReport.Test_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="bbd.com" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APi_Test_Package" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Auto_TestReport.Test_one&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for Auto_TestUnitest.Auto_test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="bbd.com" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APi_Test_Package" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Auto_TestUnitest.Auto_test&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests in Auto_TestReport.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="bbd.com" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APi_Test_Package" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in Auto_TestSuite.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="bbd.com" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APi_Test_Package" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in Request_get.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="bbd.com" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APi_Test_Package" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/APi_Test_Package/Request_get.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <module name="Demo" />
@@ -686,24 +518,6 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list>
-      <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.DemoProject" />
-      <item itemvalue="Python tests.Unittests in Auto_TestReport.py" />
-      <item itemvalue="Python tests.Unittests in Request_get.py" />
-      <item itemvalue="Python tests.Unittests for Auto_TestUnitest.Auto_test" />
-      <item itemvalue="Python tests.Unittests in Auto_TestSuite.py" />
-      <item itemvalue="Python tests.Unittests for Auto_TestReport.Test_one" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python tests.Unittests for Auto_TestUnitest.Auto_test" />
-        <item itemvalue="Python tests.Unittests for Auto_TestReport.Test_one" />
-        <item itemvalue="Python tests.Unittests in Auto_TestSuite.py" />
-        <item itemvalue="Python tests.Unittests in Auto_TestReport.py" />
-        <item itemvalue="Python tests.Unittests in Request_get.py" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -737,7 +551,8 @@
       <workItem from="1583033668574" duration="1504000" />
       <workItem from="1583035215046" duration="4033000" />
       <workItem from="1583234486589" duration="6959000" />
-      <workItem from="1583326134273" duration="2241000" />
+      <workItem from="1583326134273" duration="2915000" />
+      <workItem from="1583329487131" duration="1013000" />
     </task>
     <task id="LOCAL-00001" summary="加 类描述">
       <created>1559557528561</created>
@@ -771,39 +586,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_Request_get_py - 2020.03.04 at 20h 40m 19s.xml">
-      <configuration name="Unittests in Request_get.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Request_get_py - 2020.03.04 at 20h 41m 35s.xml">
-      <configuration name="Unittests in Request_get.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Request_get_py - 2020.03.04 at 20h 43m 04s.xml">
-      <configuration name="Unittests in Request_get.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Auto_TestUnitest_Auto_test - 2020.03.04 at 20h 43m 29s.xml">
-      <configuration name="Unittests for Auto_TestUnitest.Auto_test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Auto_TestUnitest_Auto_test - 2020.03.04 at 20h 43m 53s.xml">
-      <configuration name="Unittests for Auto_TestUnitest.Auto_test" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Auto_TestReport_py - 2020.03.04 at 20h 44m 06s.xml">
-      <configuration name="Unittests in Auto_TestReport.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Auto_TestReport_py - 2020.03.04 at 20h 44m 26s.xml">
-      <configuration name="Unittests in Auto_TestReport.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Auto_TestSuite_py - 2020.03.04 at 20h 44m 53s.xml">
-      <configuration name="Unittests in Auto_TestSuite.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_Auto_TestReport_Test_one - 2020.03.04 at 20h 54m 52s.xml">
-      <configuration name="Unittests for Auto_TestReport.Test_one" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_Auto_TestUnitest_Auto_test - 2020.03.04 at 21h 00m 38s.xml">
       <configuration name="Unittests for Auto_TestUnitest.Auto_test" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_Auto_TestUnitest_Auto_test - 2020.03.04 at 21h 34m 30s.xml">
+      <configuration name="Unittests for Auto_TestUnitest.Auto_test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Auto_TestReport_py - 2020.03.04 at 21h 36m 45s.xml">
+      <configuration name="Unittests in Auto_TestReport.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Auto_TestReport_Test_one - 2020.03.04 at 21h 39m 22s.xml">
+      <configuration name="Unittests for Auto_TestReport.Test_one" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Request_get_py - 2020.03.04 at 21h 40m 41s.xml">
+      <configuration name="Unittests in Request_get.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Auto_TestSuite_py - 2020.03.04 at 21h 40m 55s.xml">
+      <configuration name="Unittests in Auto_TestSuite.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Auto_TestSuite_py - 2020.03.04 at 21h 41m 35s.xml">
+      <configuration name="Unittests in Auto_TestSuite.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Auto_TestUnitest_py - 2020.03.04 at 21h 41m 54s.xml">
+      <configuration name="Unittests in Auto_TestUnitest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Auto_TestReport_py - 2020.03.04 at 21h 46m 44s.xml">
+      <configuration name="Unittests in Auto_TestReport.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Auto_TestReport_py - 2020.03.04 at 21h 47m 04s.xml">
+      <configuration name="Unittests in Auto_TestReport.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129493000" />
+    <option name="totallyTimeSpent" value="131180000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -827,11 +642,11 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32606325" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23118865" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25736097" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32388222" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33315566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.336887" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="SciView" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -850,12 +665,13 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="9" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.24209379" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32497275" />
@@ -877,7 +693,6 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39803708" />
     </layout-to-restore>
@@ -1150,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/Python/Lib/unittest/runner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -1171,19 +979,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Request_get.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APi_Test_Package/Request_post.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="420">
           <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -1191,42 +989,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="16" selection-start-line="10" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Request_get.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#1#54#0" />
-          </folding>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="300">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py">
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#302#312#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py">
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="-69">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
-            <element signature="e#10#25#0" expanded="true" />
+            <element signature="e#302#323#0" expanded="true" />
           </folding>
         </state>
       </provider>
