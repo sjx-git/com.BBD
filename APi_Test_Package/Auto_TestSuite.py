@@ -1,8 +1,3 @@
-import sys
-import os
-curPath = os.path.abspath(os.path.dirname(__file__))
-rootPath = os.path.split(curPath)[0]
-sys.path.append(rootPath)
 import unittest
 from APi_Test_Package import Request_get,Request_post
 class Test_Suite(unittest.TestCase):
