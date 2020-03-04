@@ -1,3 +1,15 @@
+'''
+耗费了一天的时间，纵欲解决了在命令行下，iimport包找不到的问题 fuck100遍
+1.试了很多sys.path.add啥玩意的 根本不好使  生气
+2.还加了一个 乱七八糟的 os 啥的  倒是确实是可以了但是  总觉得别扭
+        （import sys
+        import os
+        curPath = os.path.abspath(os.path.dirname(__file__))
+        rootPath = os.path.split(curPath)[0]
+        sys.path.append(rootPath)）
+3.目前可以接受的方案：在装有requests 的地方可以把HTMLRunner 拿过去，同样可以写个XXX.pth的文件，解决这个恶心的问题
+4.内容：就是找不到的这个包的 绝对路径，/root/test/com.bbd/APi_Test_Package  这个包的路径不要写，直接写/root/test/com.bbd 就可以了！！！！！
+'''
 import unittest
 from APi_Test_Package import Request_get,Request_post
 class Test_Suite(unittest.TestCase):
