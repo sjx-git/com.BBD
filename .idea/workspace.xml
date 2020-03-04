@@ -7,6 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c1a63005-5517-49ae-96ad-68a2edb38e5f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py" beforeDir="false" afterPath="$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,10 +62,45 @@
       <file leaf-file-name="Auto_TestUnitest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="69" column="41" lean-forward="true" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
+            <state>
+              <caret selection-end-column="6" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auto_TestSuite.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Request_get.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APi_Test_Package/Request_get.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Request_post.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/APi_Test_Package/Request_post.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,20 +109,8 @@
       <file leaf-file-name="Auto_TestReport.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="e#302#323#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APi_Test_Package/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="216">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -142,9 +166,9 @@
         <option value="$PROJECT_DIR$/APi_Test_Package/__main__.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/__init__.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/AutoTest.py" />
-        <option value="$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py" />
         <option value="$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py" />
+        <option value="$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py" />
       </list>
     </option>
   </component>
@@ -605,7 +629,7 @@
       <workItem from="1582707454320" duration="17059000" />
       <workItem from="1583225010388" duration="602000" />
       <workItem from="1583284703368" duration="16437000" />
-      <workItem from="1583310124670" duration="2965000" />
+      <workItem from="1583310124670" duration="3501000" />
     </task>
     <task id="LOCAL-00001" summary="加 类描述">
       <created>1559557528561</created>
@@ -639,15 +663,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_Auto_TestReport_Test_one - 2020.03.04 at 16h 40m 58s.xml">
-      <configuration name="Unittests for Auto_TestReport.Test_one" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Auto_TestReport_py - 2020.03.04 at 16h 42m 14s.xml">
-      <configuration name="Unittests in Auto_TestReport.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Auto_TestReport_py - 2020.03.04 at 16h 44m 44s.xml">
-      <configuration name="Unittests in Auto_TestReport.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_Auto_TestReport_py - 2020.03.04 at 16h 53m 05s.xml">
       <configuration name="Unittests in Auto_TestReport.py" configurationId="tests" />
     </history-entry>
@@ -669,9 +684,18 @@
     <history-entry file="Unittests_for_Auto_TestUnitest_Auto_test - 2020.03.04 at 17h 07m 19s.xml">
       <configuration name="Unittests for Auto_TestUnitest.Auto_test" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_Auto_TestUnitest_Auto_test - 2020.03.04 at 17h 14m 23s.xml">
+      <configuration name="Unittests for Auto_TestUnitest.Auto_test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Auto_TestSuite_Test_Suite - 2020.03.04 at 17h 14m 28s.xml">
+      <configuration name="Unittests for Auto_TestSuite.Test_Suite" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Auto_TestReport_py - 2020.03.04 at 17h 14m 35s.xml">
+      <configuration name="Unittests in Auto_TestReport.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120798000" />
+    <option name="totallyTimeSpent" value="121334000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,6 +708,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
@@ -693,12 +718,12 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37024793" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37024793" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32715377" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32561985" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.15867768" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="SciView" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -754,8 +779,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/Demo.iml" />
-    <entry file="file://$PROJECT_DIR$/Hello_python/tupuTest.py" />
     <entry file="file://$PROJECT_DIR$/Hello_python/tupuTest.py" />
     <entry file="file://$PROJECT_DIR$/Hello_python/tupuTest.py" />
     <entry file="file://$PROJECT_DIR$/demo/Demo.iml" />
@@ -940,23 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Request_post.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APi_Test_Package/HTMLReport.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -967,6 +973,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Request_get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Request_post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/.AutoTest.py.swp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/APi_Test_Package/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -974,20 +1002,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestSuite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestReport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#302#323#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APi_Test_Package/Auto_TestUnitest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="69" column="41" lean-forward="true" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
+        <state>
+          <caret selection-end-column="6" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
