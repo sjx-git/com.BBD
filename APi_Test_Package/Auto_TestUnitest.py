@@ -32,6 +32,9 @@ class Auto_test(unittest.TestCase):
         @unittest.skipIf(condition,reason)
         （3）skipUnless(condition,reason):如果condition为False,则skip
         @unittest.skipUnless(condition,reason)
+        TestSuite和TestCase都有如下方法：
+            countTestCases()：返回测试用例的数量。
+            run(result)：运行套件相关的测试用例，收集测试结果到result对象中并传给result
 
     Test Loder
         TestLoadder用来加载TestCase到TestSuite中。
@@ -69,5 +72,5 @@ class Auto_test(unittest.TestCase):
     def test_post(self):
         Request_post.Api_test1().test_post('1')
 if __name__ == '__main__':
-    # verbosity=*：默认是1；设为0，则不输出每一个用例的执行结果；2-输出详细的执行结果
+    # verbosity=*：指数粗错误情况下的信息--默认是1；设为0，则不输出每一个用例的执行结果；2-输出详细的执行结果
     unittest.main(verbosity=2)
