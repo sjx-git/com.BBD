@@ -5,10 +5,17 @@ class Api_test(unittest.TestCase):
     get_url = 'http://apis.juhe.cn/simpleWeather/wids'
     def test_get(self):
         par = {"key":self.key}
+
         ret = requests.get(self.get_url,params = par).json()
-        #print( ret)
-        if self.assertIn(ret['reason'],'查询成功') == None:##assertIn 判断是否包含在里边 ,true的情况下会返回None 错误会报错
-            print('查询成功！')
+        #print(ret)
+        try:
+            if self.assertIn(ret['reason'],'查询成功') == None:##assertIn 判断是否包含在里边 ,true的情况下会返回None 错误会报错
+                print('查询成功！')
+        except:
+            if self.assertIn(ret['reason'],'超过每日可允许请求次数!') ==None:
+                 print('没次数了')
+
+
 if __name__ == '__main__':
     t  = Api_test()
     t.test_get()

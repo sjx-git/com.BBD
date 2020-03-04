@@ -35,6 +35,6 @@ class Test_one(unittest.TestCase):
 if __name__ == '__main__':
     with open("./TestReport.html","wb") as f:
          runner = HTMLTestRunner(stream = f,title = '测试报告',description= '测试情况',verbosity =2)
-         runner.STYLESHEET_TMPL = '<link rel="stylesheet" href="my_stylesheet.css" type="text/css">'
+         #runner.STYLESHEET_TMPL = '<link rel="stylesheet" href="my_stylesheet.css" type="text/css">'
          runner.run(Test_one.suite_demo)
 
