@@ -71,6 +71,8 @@ class Auto_test(unittest.TestCase):
 
     def test_post(self):
         Request_post.Api_test1().test_post('1')
+
 if __name__ == '__main__':
     # verbosity=*：指数粗错误情况下的信息--默认是1；设为0，则不输出每一个用例的执行结果；2-输出详细的执行结果
     unittest.main(verbosity=2)
+

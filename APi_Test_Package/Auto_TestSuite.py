@@ -12,6 +12,7 @@
 '''
 import unittest
 from APi_Test_Package import Request_get,Request_post
+import APi_Test_Package.Auto_TestUnitest
 class Test_Suite(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -31,7 +32,7 @@ class Test_Suite(unittest.TestCase):
 
     def test_post(self):
         Request_post.Api_test1().test_post('1')
-    def suite_demo(self):
+    def suite_demo(self):#非test开头方法，可以正常被实例化后的类，直接地xx()调用
         suite = unittest.TestSuite()
         #此处注意，测试用例必须要先将测试的方法放到 用test方法中，然后通过addTest：类名+（'测试用例的名称'）的方式加入到suite中
         '''第一种添加方法
@@ -46,6 +47,11 @@ class Test_Suite(unittest.TestCase):
         '''
         '''
         第三种添加方法，貌似这个牛逼 可以自动查找所有测试用例'''
-        suite.addTest(unittest.TestLoader.getTestCaseNames(Test_Suite))
+        suite.addTests(unittest.TestLoader().loadTestsFromTestCase(APi_Test_Package.Auto_TestUnitest.Auto_test))
+        return suite
 if __name__ == '__main__':
-    unittest.TextTestRunner(verbosity=2).run(Test_Suite.suite_demo)
+    '''
+    suite = unittest.TestSuite()
+    suite.addTests(unittest.TestLoader().loadTestsFromTestCase(APi_Test_Package.Auto_TestUnitest.Auto_test))
+    unittest.TextTestRunner(verbosity=2).run(suite)
+    '''
