@@ -10,7 +10,7 @@ ubuntu下，我放到了如下路径：/usr/lib/python3.7。
 '''
 from HTMLTestRunner import HTMLTestRunner
 import unittest
-import Request_get,Request_post,Auto_TestUnitest
+from APi_Test_Package import Request_get,Request_post,Auto_TestUnitest
 
 class Test_one(unittest.TestCase):
     @classmethod
