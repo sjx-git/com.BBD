@@ -4,7 +4,7 @@ import unittest
 from HTMLTestRunner import HTMLTestRunner #遇到两次导入只导入了文件名，没导入函数 切记！！！！
 
 if __name__ == '__main__':
-    unittest.main(Auto_TestUnitest)
+    #unittest.main(Auto_TestUnitest)
 
     suite = unittest.TestSuite()
     #加载用例的时候，一定注意，必须加载的是 加载 类的 类名，不可以直接写到文件名就结束了
