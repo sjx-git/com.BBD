@@ -19,14 +19,24 @@ class Api_test1(unittest.TestCase):
                     print('查询成功')
             '''
             try:
-                eq = rets['result']['city']
-                if self.assertTrue(eq,city) == None:##assertEqual 判断是否一致 ,true的情况下会返回None 错误会报错
+                if self.assertTrue(rets['result']['city'],city) == None:
                     print('查询成功')
             except:
                 #print(rets)
-                if rets['error_code'] == 207301:
-                    print('暂不支持该城市')
-                else:
-                    print('输入不正确')
+                try:
+                    #assertEqual 判断是否一致 ,true的情况下会返回None 错误会返回指定错误信息
+                    if self.assertEqual(rets['error_code'],207301,msg ='暂不支持该城市' )==None:
+                        print('暂不支持该城市')
+                except Exception as a:
+                    #print(a)
+                    try:
+                        #assertTrue 判断是否一致 ,true的情况下会返回None 错误会返回指定错误信息
+                        if self.assertTrue(rets['error_code']==10012,msg= '超过每日可允许请求次数!')==None:
+                             print('超过每日可允许请求次数!')
+                    except Exception as b:
+                        #print(b)
+                        print('不知道咋的了...')
+        else:
+            print('输入不正确')
 if __name__ == '__main__':
-     Api_test1().test_post('1')
+     Api_test1().test_post('上海')
