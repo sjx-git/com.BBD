@@ -51,8 +51,8 @@ class Test_Suite(unittest.TestCase):
         suite.addTests(unittest.TestLoader().loadTestsFromTestCase(APi_Test_Package.Auto_TestUnitest.Auto_test))
         return suite
 if __name__ == '__main__':
-    '''
+
     suite = unittest.TestSuite()
     suite.addTests(unittest.TestLoader().loadTestsFromTestCase(APi_Test_Package.Auto_TestUnitest.Auto_test))
     unittest.TextTestRunner(verbosity=2).run(suite)
-    '''
+
