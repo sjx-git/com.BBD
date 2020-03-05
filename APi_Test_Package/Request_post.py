@@ -1,3 +1,4 @@
+#coding:utf-8
 import requests
 import unittest
 class Api_test1(unittest.TestCase):
