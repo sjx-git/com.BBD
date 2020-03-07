@@ -1,4 +1,6 @@
 #coding:utf-8
+'''接口自动化
+
 from APi_Test_Package import Request_post, Request_get, Auto_TestReport, Auto_TestSuite, Auto_TestUnitest
 import unittest
 from HTMLTestRunner import HTMLTestRunner #遇到两次导入只导入了文件名，没导入函数 切记！！！！
@@ -16,3 +18,10 @@ if __name__ == '__main__':
         runner = HTMLTestRunner(stream = f,title = u'测试报告',description= u'测试情况',verbosity =2)
         runner.STYLESHEET_TMPL = '<link rel="stylesheet" href="my_stylesheet.css" type="text/css">'
         runner.run(Auto_TestReport.Test_one().suite_demo())
+'''
+
+'''web自动化'''
+from  Gui_AutoTest import  Sign_in,Ui_demo
+if __name__ == '__main__':
+    Ui_demo.UiTest.Open_dealmoon('self')
+    Sign_in.sign_demo.SignTest('self')
