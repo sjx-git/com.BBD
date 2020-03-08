@@ -19,7 +19,7 @@ print(str.split(' '))
 print(str.partition('a'))
 '居中显示'
 print(str.center(10))
-'删除空格'
+'删除 头尾的空格'
 print(str.strip())
 '删除右边空格'
 print(str.rstrip())
@@ -32,3 +32,12 @@ print(str.upper())
 '合并'
 print(str.join(str1))
 
+'去除全部的空格'
+A=['我', '的', '收', '藏']
+G =' '.join(A)
+print(G.replace(' ',''))
+
+'join()方法+split()方法，可以去除全部空格'
+a = " a b c "
+b = a.split()  # 字符串按空格分割成列表b ['a', 'b', 'c']
+c = "".join(b) # 使用一个空字符串合成列表内容生成新的字符串
