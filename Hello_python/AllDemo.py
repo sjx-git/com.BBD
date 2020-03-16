@@ -215,11 +215,12 @@ class API_Test(unittest.TestCase):
         book = xlrd.open_workbook("../data/data1.xlsx")#所要读取的Excel表所在地址 同级用/  非同级用..   另外Excel表需要是xlsx格式,并且内容需要文本格式
         res = book.sheet_by_name("Sheet1")#定位读取的表格 可以用name 也可以用index
         #print(res.nrows)#统计有多少行
+        #print(res.ncols)#统计有多少列
         #print(res.row_values(1)[0])
         global city
-        city = res.row_values(1)[0]#读取第几行的数据 从0开始
+        city = res.row_values(1,0,3)#读取下标1的行数据 ，并且是从下标0的列到下标3的列，所有的下标都不包含其本身，即 这个是从除去列名所在的第一行  从表格第二行开始 
         global key
-        key = res.col_values(1)[1]#读取第几列的数据 从0开始
+        key = res.col_values(1,1,3)#读取下标1的列数据 ，并且是从下标0的行到下标3的行，所有的下标都不包含其本身，即 这个是从除去列名所在的第一列  从表格第二行开始 
         #print(city)
         #print(key)
     def test01(self):

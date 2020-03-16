@@ -15,6 +15,8 @@ class UiTest(unittest.TestCase):
             print('国内镜像站')
         else:
             print('国外镜像站')
+        #self.driver.current_window_handle  #获取当前句柄
+        #self.driver.window_handles#获取所有的窗口
 
 if __name__ == '__main__':
     UiTest().Open_dealmoon()
