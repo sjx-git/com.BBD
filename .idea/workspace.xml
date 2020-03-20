@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7c78501-a0e3-4ad7-b702-fa653a3495ba" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../com.BBD/Hello_python/mysql_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.BBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.BBD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.BBD/Gui_AutoTest/Ui_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../com.BBD/Gui_AutoTest/Ui_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.BBD/Hello_python/AllDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../com.BBD/Hello_python/AllDemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.BBD/Hello_python/Str_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../com.BBD/Hello_python/Str_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.BBD/data/data1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../com.BBD/data/data1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.BBD/bbd.com/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/../com.BBD/bbd.com/pip-selfcheck.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,77 +17,59 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/com_bbd$Unittests_for_My_Home_my_demo.coverage" NAME="Unittests for My_Home.my_demo Coverage Results" MODIFIED="1583671381252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$Sign_in.coverage" NAME="Sign_in Coverage Results" MODIFIED="1583595082738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
-    <SUITE FILE_PATH="coverage/com_bbd$List_demo.coverage" NAME="List_demo Coverage Results" MODIFIED="1584366816863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../com.BBD/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_bbd$List_demo.coverage" NAME="List_demo Coverage Results" MODIFIED="1584366816863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_bbd$Unittests_in_Case_demo_py.coverage" NAME="Unittests in Case_demo.py Coverage Results" MODIFIED="1583654139113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$Unittests_in_Auto_TestUnitest_py.coverage" NAME="Unittests in Auto_TestUnitest.py Coverage Results" MODIFIED="1583413716592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_bbd$Unittests_in_Auto_TestSuite_py.coverage" NAME="Unittests in Auto_TestSuite.py Coverage Results" MODIFIED="1583414175848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_bbd$Unnamed__1_.coverage" NAME="Unnamed (1) Coverage Results" MODIFIED="1583597926678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$Ui_demo__1_.coverage" NAME="Ui_demo (1) Coverage Results" MODIFIED="1583648928364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
-    <SUITE FILE_PATH="coverage/com_bbd$Set_demo.coverage" NAME="Set_demo Coverage Results" MODIFIED="1584366703874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../com.BBD/Hello_python" />
-    <SUITE FILE_PATH="coverage/com_bbd$4564__1_.coverage" NAME="4564 (1) Coverage Results" MODIFIED="1584365548184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../com.BBD/Gui_AutoTest" />
+    <SUITE FILE_PATH="coverage/com_bbd$Set_demo.coverage" NAME="Set_demo Coverage Results" MODIFIED="1584366703874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_bbd$4564__1_.coverage" NAME="4564 (1) Coverage Results" MODIFIED="1584365548184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$Unittests_for_Auto_TestReport_Test_one.coverage" NAME="Unittests for Auto_TestReport.Test_one Coverage Results" MODIFIED="1583414183168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_bbd$Unnamed__2_.coverage" NAME="Unnamed (2) Coverage Results" MODIFIED="1583654009807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1583671510432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/com_bbd$main.coverage" NAME="main Coverage Results" MODIFIED="1583594957688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/com_bbd$Str_demo.coverage" NAME="Str_demo Coverage Results" MODIFIED="1584365886816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../com.BBD/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_bbd$Str_demo.coverage" NAME="Str_demo Coverage Results" MODIFIED="1584365886816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_bbd$Unittests_for_Test_Suite_Suite_demo.coverage" NAME="Unittests for Test_Suite.Suite_demo Coverage Results" MODIFIED="1583649994332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$4564.coverage" NAME="4564 Coverage Results" MODIFIED="1583674073195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1583414243847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_bbd$Ui_demo.coverage" NAME="Ui_demo Coverage Results" MODIFIED="1583597088126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$Unittests_in_Auto_TestReport_py.coverage" NAME="Unittests in Auto_TestReport.py Coverage Results" MODIFIED="1583414222767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_bbd$mysql_demo.coverage" NAME="mysql_demo Coverage Results" MODIFIED="1584620860237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../com.BBD/Hello_python" />
     <SUITE FILE_PATH="coverage/com_bbd$Unittests_in_Request_get_py.coverage" NAME="Unittests in Request_get.py Coverage Results" MODIFIED="1583413705356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_bbd$Unittests_in_Test_Suite_py.coverage" NAME="Unittests in Test_Suite.py Coverage Results" MODIFIED="1583650125063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
-    <SUITE FILE_PATH="coverage/com_bbd$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1584359895343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../com.BBD/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_bbd$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1584359895343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../com.BBD/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-              <folding>
-                <element signature="e#908#923#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="Gc_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../com.BBD/Hello_python/Gc_demo.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="4564.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/4564.py">
+      <file leaf-file-name="mysql_demo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../com.BBD/Hello_python/mysql_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="150">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/__init__.py">
+        <entry file="file://$PROJECT_DIR$/../com.BBD/bbd.com/Lib/site-packages/pymysql/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="339">
+              <caret line="93" column="17" lean-forward="true" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="My_Home.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/My_Home.py">
+      <file leaf-file-name="connections.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../com.BBD/bbd.com/Lib/site-packages/pymysql/connections.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test_Suite.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/Test_Suite.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+            <state relative-caret-position="247">
+              <caret line="184" column="28" selection-start-line="182" selection-start-column="23" selection-end-line="184" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -127,12 +107,13 @@
         <option value="$PROJECT_DIR$/Gui_AutoTest/My_Home.py" />
         <option value="$PROJECT_DIR$/Gui_AutoTest/4564.py" />
         <option value="$PROJECT_DIR$/Hello_python/Str_demo.py" />
-        <option value="$PROJECT_DIR$/../com.BBD/Hello_python/AllDemo.py" />
-        <option value="$PROJECT_DIR$/../com.BBD/Hello_python/__init__.py" />
-        <option value="$PROJECT_DIR$/../com.BBD/APi_Test_Package/Request_get.py" />
-        <option value="$PROJECT_DIR$/../com.BBD/Gui_AutoTest/Sign_in.py" />
-        <option value="$PROJECT_DIR$/../com.BBD/Gui_AutoTest/Ui_demo.py" />
-        <option value="$PROJECT_DIR$/../com.BBD/Hello_python/Str_demo.py" />
+        <option value="$PROJECT_DIR$/Hello_python/AllDemo.py" />
+        <option value="$PROJECT_DIR$/Hello_python/__init__.py" />
+        <option value="$PROJECT_DIR$/APi_Test_Package/Request_get.py" />
+        <option value="$PROJECT_DIR$/Gui_AutoTest/Sign_in.py" />
+        <option value="$PROJECT_DIR$/Gui_AutoTest/Ui_demo.py" />
+        <option value="$PROJECT_DIR$/Hello_python/Str_demo.py" />
+        <option value="$PROJECT_DIR$/../com.BBD/Hello_python/mysql_demo.py" />
       </list>
     </option>
   </component>
@@ -145,7 +126,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="603" />
     <option name="width" value="642" />
     <option name="height" value="1041" />
@@ -155,8 +136,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,134 +146,27 @@
               <item name="com.bbd" type="b2602c69:ProjectViewProjectNode" />
               <item name="com.BBD" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="com.bbd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.BBD" type="462c0819:PsiDirectoryNode" />
+              <item name="bbd.com" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../com.dealmoon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/..//com.dealmoon" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../com.BBD/bbd.com/Lib/site-packages/chromedriver.exe</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../com.BBD/bbd.com/Scripts/chromedriver.exe</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -305,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.List_demo">
+  <component name="RunManager" selected="Python.mysql_demo">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -333,12 +208,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../com.BBD/Gui_AutoTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Gui_AutoTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../com.BBD/Gui_AutoTest/4564.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gui_AutoTest/4564.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -352,12 +227,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../com.BBD/Hello_python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hello_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../com.BBD/Hello_python/List_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/List_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,12 +246,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../com.BBD/Hello_python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hello_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../com.BBD/Hello_python/Set_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/Set_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -390,12 +265,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../com.BBD/Hello_python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hello_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../com.BBD/Hello_python/Str_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/Str_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -458,7 +333,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mysql_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bbd.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -471,7 +346,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../com.BBD/Hello_python/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../com.BBD/Hello_python/mysql_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -503,19 +378,19 @@
       <item itemvalue="Python.Unnamed (2)" />
       <item itemvalue="Python.Unnamed (1)" />
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.__init__" />
       <item itemvalue="Python.4564 (1)" />
       <item itemvalue="Python.Str_demo" />
       <item itemvalue="Python.Set_demo" />
       <item itemvalue="Python.List_demo" />
+      <item itemvalue="Python.mysql_demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mysql_demo" />
         <item itemvalue="Python.List_demo" />
         <item itemvalue="Python.Set_demo" />
         <item itemvalue="Python.Str_demo" />
         <item itemvalue="Python.4564 (1)" />
-        <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
@@ -532,7 +407,8 @@
       <workItem from="1583413612822" duration="25552000" />
       <workItem from="1583636200491" duration="29264000" />
       <workItem from="1584060634901" duration="2219000" />
-      <workItem from="1584357283676" duration="10027000" />
+      <workItem from="1584357283676" duration="10083000" />
+      <workItem from="1584616633989" duration="2506000" />
     </task>
     <servers />
   </component>
@@ -569,13 +445,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67062000" />
+    <option name="totallyTimeSpent" value="69624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -583,11 +461,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27699018" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.32824427" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27589968" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.32715377" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12473348" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12579957" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -596,7 +474,6 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -609,28 +486,28 @@
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3293348" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="SciView" order="5" />
       <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -648,6 +525,47 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../com.BBD/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#908#923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/4564.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/Test_Suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/My_Home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/Ui_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -672,9 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -733,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,9 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -901,20 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/Sign_in.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,23 +824,6 @@
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../com.BBD/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <element signature="e#908#923#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/4564.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -968,11 +850,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/My_Home.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="375">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.BBD/Gui_AutoTest/4564.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.BBD/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#908#923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.BBD/Hello_python/Gc_demo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.BBD/bbd.com/Lib/site-packages/pymysql/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="184" column="28" selection-start-line="182" selection-start-column="23" selection-end-line="184" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.BBD/bbd.com/Lib/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="93" column="17" lean-forward="true" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../com.BBD/Hello_python/mysql_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
