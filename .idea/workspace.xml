@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7c78501-a0e3-4ad7-b702-fa653a3495ba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../com.BBD/.idea/GrepConsole.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.BBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.BBD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.BBD/Hello_python/mysql_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../com.BBD/Hello_python/mysql_demo.py" afterDir="false" />
-    </list>
+    <list default="true" id="b7c78501-a0e3-4ad7-b702-fa653a3495ba" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,8 +42,8 @@
       <file leaf-file-name="mysql_demo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../com.BBD/Hello_python/mysql_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="343">
+              <caret line="54" column="11" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -107,7 +103,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="603" />
     <option name="width" value="642" />
     <option name="height" value="1041" />
@@ -147,7 +143,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="power.mode.ii" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -394,7 +390,7 @@
       <workItem from="1584702265251" duration="172000" />
       <workItem from="1584702490565" duration="123000" />
       <workItem from="1584702670546" duration="291000" />
-      <workItem from="1584703011703" duration="15951000" />
+      <workItem from="1584703011703" duration="16100000" />
     </task>
     <servers />
   </component>
@@ -431,7 +427,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87065000" />
+    <option name="totallyTimeSpent" value="87214000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,7 +439,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
@@ -455,8 +451,8 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27589968" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.32606325" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27589968" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" visible="true" weight="0.32606325" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13113007" />
@@ -868,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../com.BBD/Hello_python/mysql_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="343">
+          <caret line="54" column="11" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
         </state>
       </provider>
     </entry>
