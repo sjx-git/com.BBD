@@ -5,9 +5,9 @@ class New_name(object):
         book = xlrd.open_workbook("../data/Csrc_pe.xlsx")
         xl = book.sheet_by_name('Sheet1')
         #print(xl.nrows)
-        post_name = xl.col_values(3)[1:]
+        post_name = xl.col_values(0)[1:]
         #print(post_name)
-        get_name =xl.col_values(5)[1:]
+        get_name =xl.col_values(2)[1:]
         #print(get_name)
         #print(len(get_name))
         '''

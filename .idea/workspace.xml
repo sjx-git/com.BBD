@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7c78501-a0e3-4ad7-b702-fa653a3495ba" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Csrs_pe/Oldname_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Csrs_pe/old_target.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Csrs_pe/Name_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Csrs_pe/Name_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Csrs_pe/new_target.py" beforeDir="false" afterPath="$PROJECT_DIR$/Csrs_pe/new_target.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/Csrc_pe.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/Csrc_pe.xlsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,7 +28,7 @@
     <SUITE FILE_PATH="coverage/com_bbd$Name_demo.coverage" NAME="Name_demo Coverage Results" MODIFIED="1585105073554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Csrs_pe" />
     <SUITE FILE_PATH="coverage/com_bbd$Unnamed__2_.coverage" NAME="Unnamed (2) Coverage Results" MODIFIED="1583654009807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1583671510432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/com_bbd$new_target__1_.coverage" NAME="new_target (1) Coverage Results" MODIFIED="1585105824179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Csrs_pe" />
+    <SUITE FILE_PATH="coverage/com_bbd$new_target__1_.coverage" NAME="new_target (1) Coverage Results" MODIFIED="1585130277016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Csrs_pe" />
     <SUITE FILE_PATH="coverage/com_bbd$Str_demo.coverage" NAME="Str_demo Coverage Results" MODIFIED="1584365886816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_bbd$Ui_demo.coverage" NAME="Ui_demo Coverage Results" MODIFIED="1583597088126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$Unittests_in_Auto_TestReport_py.coverage" NAME="Unittests in Auto_TestReport.py Coverage Results" MODIFIED="1583414222767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
@@ -34,31 +36,37 @@
     <SUITE FILE_PATH="coverage/com_bbd$Sign_in.coverage" NAME="Sign_in Coverage Results" MODIFIED="1583595082738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$4564.coverage" NAME="4564 Coverage Results" MODIFIED="1583674073195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$List_demo.coverage" NAME="List_demo Coverage Results" MODIFIED="1584366816863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_bbd$Oldname_demo__1_.coverage" NAME="Oldname_demo (1) Coverage Results" MODIFIED="1585126959699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Csrs_pe" />
     <SUITE FILE_PATH="coverage/com_bbd$Unittests_for_Auto_TestReport_Test_one.coverage" NAME="Unittests for Auto_TestReport.Test_one Coverage Results" MODIFIED="1583414183168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
     <SUITE FILE_PATH="coverage/com_bbd$Unittests_for_My_Home_my_demo.coverage" NAME="Unittests for My_Home.my_demo Coverage Results" MODIFIED="1583671381252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$Unittests_in_Case_demo_py.coverage" NAME="Unittests in Case_demo.py Coverage Results" MODIFIED="1583654139113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$Unnamed__1_.coverage" NAME="Unnamed (1) Coverage Results" MODIFIED="1583597926678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1583414243847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/APi_Test_Package" />
+    <SUITE FILE_PATH="coverage/com_bbd$old_target.coverage" NAME="old_target Coverage Results" MODIFIED="1585130437055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Csrs_pe" />
     <SUITE FILE_PATH="coverage/com_bbd$Ui_demo__1_.coverage" NAME="Ui_demo (1) Coverage Results" MODIFIED="1583648928364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$Unittests_for_Test_Suite_Suite_demo.coverage" NAME="Unittests for Test_Suite.Suite_demo Coverage Results" MODIFIED="1583649994332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gui_AutoTest" />
     <SUITE FILE_PATH="coverage/com_bbd$Set_demo.coverage" NAME="Set_demo Coverage Results" MODIFIED="1584366703874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_bbd$Oldname_demo.coverage" NAME="Oldname_demo Coverage Results" MODIFIED="1585125211289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Csrs_pe" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="new_target.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Csrs_pe/new_target.py">
+      <file leaf-file-name="old_target.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Csrs_pe/old_target.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="115">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Name_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Csrs_pe/Name_demo.py">
+      <file leaf-file-name="Oldname_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Csrs_pe/Oldname_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="277">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -107,7 +115,11 @@
         <option value="$PROJECT_DIR$/Csrs_pe/Headers_demo.py" />
         <option value="$PROJECT_DIR$/Csrs_pe/Time_demo.py" />
         <option value="$PROJECT_DIR$/Csrs_pe/new_target.py" />
+        <option value="$PROJECT_DIR$/Csrs_pe/old_name.py" />
+        <option value="$PROJECT_DIR$/Csrs_pe/oldname_demo.py" />
         <option value="$PROJECT_DIR$/Csrs_pe/Name_demo.py" />
+        <option value="$PROJECT_DIR$/Csrs_pe/Oldname_demo.py" />
+        <option value="$PROJECT_DIR$/Csrs_pe/old_target.py" />
       </list>
     </option>
   </component>
@@ -140,17 +152,7 @@
             <path>
               <item name="com.bbd" type="b2602c69:ProjectViewProjectNode" />
               <item name="bbd.com" type="462c0819:PsiDirectoryNode" />
-              <item name="bbd.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.bbd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bbd.com" type="462c0819:PsiDirectoryNode" />
               <item name="Csrs_pe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.bbd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bbd.com" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.new_target (1)">
+  <component name="RunManager" selected="Python.old_target">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -209,25 +211,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="List_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="bbd.com" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hello_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/List_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="Name_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bbd.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,6 +225,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Csrs_pe/Name_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Oldname_demo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bbd.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Csrs_pe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Csrs_pe/Oldname_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Oldname_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bbd.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Csrs_pe" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\bbd.com\Csrs_pe\old_target.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,25 +325,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="mysql_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="bbd.com" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../com.BBD/Hello_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../com.BBD/Hello_python/mysql_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="new_target (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bbd.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -342,7 +344,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="new_target" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="old_target" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bbd.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,12 +352,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APi_Test_Package" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Csrs_pe" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\bbd.com\Csrs_pe\new_target.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Csrs_pe/old_target.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -387,19 +389,19 @@
       <item itemvalue="Python.Unnamed (2)" />
       <item itemvalue="Python.Unnamed (1)" />
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.List_demo" />
-      <item itemvalue="Python.mysql_demo" />
-      <item itemvalue="Python.new_target" />
       <item itemvalue="Python.Name_demo" />
       <item itemvalue="Python.new_target (1)" />
+      <item itemvalue="Python.Oldname_demo" />
+      <item itemvalue="Python.Oldname_demo (1)" />
+      <item itemvalue="Python.old_target" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.old_target" />
         <item itemvalue="Python.new_target (1)" />
+        <item itemvalue="Python.Oldname_demo (1)" />
+        <item itemvalue="Python.Oldname_demo" />
         <item itemvalue="Python.Name_demo" />
-        <item itemvalue="Python.new_target" />
-        <item itemvalue="Python.mysql_demo" />
-        <item itemvalue="Python.List_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -455,7 +457,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83300000" />
+    <option name="totallyTimeSpent" value="91500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -472,7 +474,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32561985" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.3250825" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.32396695" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12934947" />
@@ -536,9 +538,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://F:/com.BBD/Gui_AutoTest/Sign_in.py" />
-    <entry file="file://F:/com.BBD/Gui_AutoTest/My_Home.py" />
-    <entry file="file://F:/com.BBD/Gui_AutoTest/__init__.py" />
     <entry file="file://F:/com.BBD/Hello_python/File_demo.py" />
     <entry file="file://F:/com.BBD/Hello_python/AllDemo.py" />
     <entry file="file://F:/com.BBD/Gui_AutoTest/Ui_demo.py" />
@@ -627,15 +626,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Csrs_pe/Name_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="270">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Csrs_pe/new_target.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
+        <state relative-caret-position="648">
           <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello_python/Dictionaries_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Csrs_pe/Oldname_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Csrs_pe/old_target.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
