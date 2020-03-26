@@ -1,3 +1,5 @@
+#coding:utf-8
+
 '''
 此demo 包含 基本架构及各种使用方法
 '''
@@ -9,7 +11,8 @@ class Demo(object):#类方法的命名，大驼峰的方式
     #类属性
     num = 0
     #实例方法
-    def __fun_demo__(self):#实例方法的命名方式，下划线    __名字__私有方法      方法self 必须写上     函数可以不写
+
+    def __fun_demo__(self):  # 实例方法的命名方式，下划线    __名字__私有方法      方法self 必须写上     函数可以不写
         pass
     #类方法
     @classmethod
