@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7c78501-a0e3-4ad7-b702-fa653a3495ba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../com.BBD/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.BBD/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.BBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../com.BBD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.BBD/Csrs_pe/old_target.py" beforeDir="false" afterPath="$PROJECT_DIR$/../com.BBD/Csrs_pe/old_target.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com.BBD/Csrs_pe/Oldname_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../com.BBD/Csrs_pe/Oldname_demo.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +48,8 @@
       <file leaf-file-name="old_target.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../com.BBD/Csrs_pe/old_target.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="295">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="39" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -61,8 +60,8 @@
       <file leaf-file-name="Oldname_demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../com.BBD/Csrs_pe/Oldname_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="200">
+              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -115,6 +114,7 @@
         <option value="$PROJECT_DIR$/Csrs_pe/new_target.py" />
         <option value="$PROJECT_DIR$/Csrs_pe/Name_demo.py" />
         <option value="$PROJECT_DIR$/../com.BBD/Csrs_pe/old_target.py" />
+        <option value="$PROJECT_DIR$/../com.BBD/Csrs_pe/Oldname_demo.py" />
       </list>
     </option>
   </component>
@@ -633,7 +633,7 @@
       <workItem from="1584703011703" duration="16100000" />
       <workItem from="1584854382147" duration="747000" />
       <workItem from="1585048389478" duration="7763000" />
-      <workItem from="1585133854137" duration="2502000" />
+      <workItem from="1585133854137" duration="3362000" />
     </task>
     <servers />
   </component>
@@ -670,7 +670,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98226000" />
+    <option name="totallyTimeSpent" value="99086000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -683,7 +683,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
@@ -696,7 +695,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.259542" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.32388222" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" visible="true" weight="0.32388222" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
@@ -1101,15 +1100,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../com.BBD/Csrs_pe/Oldname_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="200">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../com.BBD/Csrs_pe/old_target.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="295">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="39" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
           </folding>
