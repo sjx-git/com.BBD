@@ -29,7 +29,6 @@ class Re_demo(object):
         (?P<name>)	分组起别名
         (?P=name)	引用别名为name分组匹配到的字符串
 
-
         在"*","?","+","{m,n}"后面加上？，使贪婪变成非贪婪。
 
     '''
@@ -40,11 +39,30 @@ class Re_demo(object):
         res = re.match(s,A)  # match(匹配的格式，匹配的字符串)，从左到右开始匹配并且是需要完全匹配才可以。
                              # 当匹配正确的时候，只要前部分完全匹配 后边的无论是什么  都算是正确的；并将匹配格式或者说是匹配到的那部分数据返回，并不是会将 匹配对象全部返回；
                              # 当匹配错误的时候，返回None
-        print(res.group())  # 用group 将结果展示出来，当res为none的时候 会报错
+        #print(res.group())  # 用group 将结果展示出来，当res为none的时候 会报错
+
+        #原始字符串 r
+        # s = '/nabc'
+        # re.match('\\\\n/w',s)#当出现\后 往往是在正则表达式中需要转义的，为了解决这种问题麻烦的写法  直接在最前边加个r
+        # re.match(r'\n\w',s)
 
         # 验证手机号
         #phone = re.match('\d\d\d\d\d\d\d\d\d\d\d','18612747509jjjjj')#第一种   虽然可以满足十一位，但是后边是字母也可以演通过
         #phone = re.match('\1[35678]','18jjjj')#括号中的不用逗号隔开就可以，效果是匹配其中任意一个就可以
-        #phone = re.match('\1[35678]\d{9}','18612747509jjjj')# 同样是虽然可以满足以1开头，第二位是从中选取一位，然后后面补全9位凑够11位，但仍然不能 限制 最后的字母
+        #phone = re.match('\1[35678]\d{9}','18612747509jjjj')# 同样是虽然可以满足以1开头，第二位是从中选取一位，然后后面补全9位凑够11位，但仍然不能限制最后的字母
+        phone = re.match(r'1[3568]\d{9}$','18612747509')#正确写法，开头 中间数 个数及结尾 实现
+        #print(phone)
+
+        #匹配0-100
+        num = re.match(r'[1-9]?\d?$|100','0')#个位数出现就是1-9 不出现就是匹配后边的\d 再用 管道加上100
+        #print(num)
+
+        #匹配邮箱
+        mail = re.match(r'\w+@(163|qq|gmail)\.(com|net|cn)$','10642002847@qq.com')
+        #print(mail)
+        mail = re.match(r'\w+@(163|qq|gmail)\.(com|net|cn)$','10642002847@qq.com')
+        #正则提取
+        mail = re.match(r'(?P<key>\w+)@(163|qq|gmail)\.(com|net|cn)$','10642002847@qq.com')#起列别名的时候，P是大写的
+        print(mail.group('key'))
 if __name__ == '__main__':
     Re_demo().re_demos()
