@@ -29,6 +29,10 @@ class Re_demo(object):
         (?P<name>)	分组起别名
         (?P=name)	引用别名为name分组匹配到的字符串
 
+        match方法从头开始找，找到就返回，否则为None，只匹配一次
+        search从头依次搜索，只匹配一次
+        findall方法：返回列表，匹配所有
+        split 根据匹配进行切割字符串，并返回一个列表
         在"*","?","+","{m,n}"后面加上？，使贪婪变成非贪婪。
 
     '''
@@ -63,6 +67,32 @@ class Re_demo(object):
         mail = re.match(r'\w+@(163|qq|gmail)\.(com|net|cn)$','10642002847@qq.com')
         #正则提取
         mail = re.match(r'(?P<key>\w+)@(163|qq|gmail)\.(com|net|cn)$','10642002847@qq.com')#起列别名的时候，P是大写的
-        print(mail.group('key'))
+        #print(mail.group('key'))
+        #获取接口
+        # url = 'http://baidu.com/name/login?id=1'
+        # l = re.sub(r'^http://.+?/','',url)
+        #print(l)
+        #获取域名 第一种方式
+        # url = 'http://baidu.com/name/login?id=1'
+        # l = re.match(r'(?P<name>^http://.+?/)',url)
+        # print(l.group('name'))
+        #获取域名 第二种方式
+        # url = 'http://baidu.com/name/login?id=1'
+        # l = re.sub(r'(?P<name>^http://.+?/).*',lambda name:name.group(1),url) # sub 将匹配到的数据进行替换
+        # print(l)
+        #获取域名 第三种方式
+        # url = 'http://baidu.com/name/login?id=1'
+        # l = re.search(r'^http://.+?/',url)
+        # print(l.group())
+        #获取多个域名 不能用 ^ 开头 不然只能匹配到第一个就结束了
+        # url = 'http://baidu.com/name/login?id=1,http://sougou.com/name/login?id=1'
+        # l = re.findall(r'http://.+?/',url)
+        # print(l)
+        #split 切割
+        url = 'http://baidu.com/name/login?id=1,http://sougou.com/name/login?id=1'
+        sp = re.split(r':|/|,|=|\.|\?',url)
+        print(sp)
+
+
 if __name__ == '__main__':
     Re_demo().re_demos()
