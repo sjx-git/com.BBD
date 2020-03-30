@@ -71,13 +71,14 @@ class Re_demo(object):
         #获取接口
         # url = 'http://baidu.com/name/login?id=1'
         # l = re.sub(r'^http://.+?/','',url)
-        #print(l)
+        # print(l)
         #获取域名 第一种方式
         # url = 'http://baidu.com/name/login?id=1'
         # l = re.match(r'(?P<name>^http://.+?/)',url)
         # print(l.group('name'))
         #获取域名 第二种方式
         # url = 'http://baidu.com/name/login?id=1'
+        # print(type(url))
         # l = re.sub(r'(?P<name>^http://.+?/).*',lambda name:name.group(1),url) # sub 将匹配到的数据进行替换
         # print(l)
         #获取域名 第三种方式
@@ -89,10 +90,11 @@ class Re_demo(object):
         # l = re.findall(r'http://.+?/',url)
         # print(l)
         #split 切割
-        url = 'http://baidu.com/name/login?id=1,http://sougou.com/name/login?id=1'
-        sp = re.split(r':|/|,|=|\.|\?',url)
-        print(sp)
-
-
+        # url = 'http://baidu.com/name/login?id=1,http://sougou.com/name/login?id=1'
+        # sp = re.split(r':|/|,|=|\.|\?',url)
+        # print(sp)
+        s = 'This text is displayed if your browser does not support the Canvas HTML element.利用业务经验整理的指标体系评价公司，触发阈值的指标越多，风险值越高。'
+        l = re.sub(r'This text is displayed if your browser does not support the Canvas HTML element\.','',s)
+        print(l)
 if __name__ == '__main__':
     Re_demo().re_demos()
