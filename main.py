@@ -21,13 +21,17 @@ if __name__ == '__main__':
         runner.run(Auto_TestReport.Test_one().suite_demo())
 '''
 
-'''web自动化'''
+'''web自动化
 import unittest
 from  Gui_AutoTest import  Sign_in,Ui_demo,Test_Suite
 if __name__ == '__main__':
-    '''
-    Ui_demo.UiTest().Open_dealmoon()
-    Sign_in.sign_demo().SignTest()    
-    '''
-    unittest.TextTestRunner(verbosity=2).run(Test_Suite.Suite_demo().suite_case())
 
+    # Ui_demo.UiTest().Open_dealmoon()
+    # Sign_in.sign_demo().SignTest()    
+    unittest.TextTestRunner(verbosity=2).run(Test_Suite.Suite_demo().suite_case())
+'''
+from  Csrc_tobelist import New_rename,Overall_risk
+if __name__ == '__main__':
+    New_rename.Open().open_url()
+    Overall_risk.Overall().risk()
+    New_rename.Open().driver.close()

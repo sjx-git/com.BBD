@@ -1,0 +1,25 @@
+#coding:utf-8
+from selenium import webdriver
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+
+
+class Open(object):
+    url = 'http://10.28.200.165/csrc_tobelist/portrait/riskMap'
+    driver = webdriver.Chrome()
+    action = webdriver.ActionChains(driver)
+    def open_url(self):
+        desired_capabilities = DesiredCapabilities.CHROME  # 修改页面加载策略
+        desired_capabilities["pageLoadStrategy"] = "none"  # 注释这两行会导致最后输出结果的延迟，即等待页面加载完成再输出
+        temp = self.driver.get(self.url)
+        WebDriverWait(self.driver,10,1)
+        title  = self.driver.title
+        #print(title)
+        try:
+            if title == '拟上市公司监管信息系统':
+                print('当前系统为:%s'%(title))
+        except:
+                print('未进入指定系统中...')
+        #self.driver.close()
+if __name__ == '__main__':
+    Open().open_url()
