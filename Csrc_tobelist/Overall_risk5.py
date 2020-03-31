@@ -6,7 +6,7 @@ import time
 class Overall_5(object):
     driver1 = New_rename.Open.driver
     action = New_rename.Open.action
-
+    lists = New_rename.Open.lists
     def risk_5(self):
         try:
             WebDriverWait(self.driver1,10,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[2]/a').click())#返回总体页面

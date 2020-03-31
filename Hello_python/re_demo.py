@@ -92,9 +92,11 @@ class Re_demo(object):
         #split 切割
         # url = 'http://baidu.com/name/login?id=1,http://sougou.com/name/login?id=1'
         # sp = re.split(r':|/|,|=|\.|\?',url)
-        # print(sp)
-        s = 'This text is displayed if your browser does not support the Canvas HTML element.利用业务经验整理的指标体系评价公司，触发阈值的指标越多，风险值越高。'
-        l = re.sub(r'This text is displayed if your browser does not support the Canvas HTML element\.','',s)
-        print(l)
+        # # print(sp)
+        # s = 'This text is displayed if your browser does not support the Canvas HTML element.利用业务经验整理的指标体系评价公司，触发阈值的指标越多，风险值越高。'
+        # l = re.sub(r'This text is displayed if your browser does not support the Canvas HTML element\.','',s)
+        # print(l)
+        t = '主板、中小板：风险拟上市公司数量/总数'
+        print(re.match(r'\w+、\w+',t))
 if __name__ == '__main__':
     Re_demo().re_demos()

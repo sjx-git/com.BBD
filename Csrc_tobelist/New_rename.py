@@ -2,12 +2,14 @@
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from Csrc_tobelist import All_list
 
 
 class Open(object):
     url = 'http://10.28.200.165/csrc_tobelist/portrait/riskMap'
     driver = webdriver.Chrome()
     action = webdriver.ActionChains(driver)
+    lists = All_list.All_list().lists()
     def open_url(self):
         desired_capabilities = DesiredCapabilities.CHROME  # 修改页面加载策略
         desired_capabilities["pageLoadStrategy"] = "none"  # 注释这两行会导致最后输出结果的延迟，即等待页面加载完成再输出

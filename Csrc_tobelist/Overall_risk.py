@@ -5,6 +5,7 @@ from Csrc_tobelist import New_rename
 class Overall(object):
     driver1 = New_rename.Open.driver
     action = New_rename.Open.action
+    lists = New_rename.Open.lists
 
     def risk(self):
         try:
@@ -14,10 +15,10 @@ class Overall(object):
             print('未定位到指定模块...')
         txt = self.driver1.find_element_by_class_name('secondTopBarTitle__1j4tQ').text
         try:
-            if  txt == "风险分类分析":
+            if txt == self.lists[1]:
                 print('总体风险--风险分类分析的 旧名称为：%s'%(txt))
-            elif txt == '分类风险情况':
-                print('总体风险--风险分类分析的 新名称为：%s'%('分类风险情况'))
+            elif txt == self.lists[0]:
+                print('总体风险--风险分类分析的 新名称为：%s'%(self.lists[0]))
         except:
             print('总体风险--风险分类分析 所修改的名称不正确:%s'%(txt))
         #time.sleep(10)
