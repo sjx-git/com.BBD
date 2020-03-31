@@ -30,8 +30,15 @@ if __name__ == '__main__':
     # Sign_in.sign_demo().SignTest()    
     unittest.TextTestRunner(verbosity=2).run(Test_Suite.Suite_demo().suite_case())
 '''
-from  Csrc_tobelist import New_rename,Overall_risk
+from  Csrc_tobelist import New_rename,Overall_risk,Overall_risk1,Overall_risk2,Overall_risk3,Overall_risk4
 if __name__ == '__main__':
     New_rename.Open().open_url()
-    Overall_risk.Overall().risk()
+    # Overall_risk.Overall().risk()
+    # Overall_risk1.Overall_1().risk_1()
+    # Overall_risk2.Overall_2().risk_2()
+    #Overall_risk3.Overall_3().risk_3()
+    Overall_risk4.Overall_4().risk_4()
+
+
     New_rename.Open().driver.close()
+
