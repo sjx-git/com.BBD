@@ -26,12 +26,30 @@ class All_list(object):
         risk4_1 = res.row_values(9)[4]
         risk4_1_old = res.row_values(9)[5]
 
-        return risk,risk_old,risk1,risk1_old,risk2,risk2_old,risk2_1,risk2_1_old,risk3,risk3_old,risk4,risk4_old,risk4_1,risk4_1_old
+        risk5 = res.row_values(10)[4]
+        risk5_old = res.row_values(10)[5]
 
+        risk6 = res.row_values(11)[4]
+        risk6_old = res.row_values(11)[5]
+
+        risk7 = res.row_values(12)[4]
+        risk7_old = res.row_values(12)[5]
+
+        risk8 = res.row_values(3)[4]
+        risk8_old = res.row_values(3)[5]
+
+        risk9 = res.row_values(17)[4]
+        risk9_old = res.row_values(17)[5]
+
+        return [risk,risk_old,risk1,risk1_old,risk2,risk2_old,risk2_1,risk2_1_old,risk3,risk3_old,risk4,risk4_old,risk4_1,risk4_1_old,risk5,risk5_old,risk6,risk6_old
+        ,risk7,risk7_old,risk8,risk8_old,risk9,risk9_old
+
+        ]
 
 
 
 
 
 if __name__ == '__main__':
-    All_list().lists()
+    pass
+    #All_list().lists()

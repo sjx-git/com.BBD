@@ -1,6 +1,5 @@
 #coding:utf-8
 from selenium import webdriver
-from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from Csrc_tobelist import All_list
 

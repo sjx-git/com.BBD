@@ -24,8 +24,8 @@ class Overall_4(object):
         #time.sleep(10)#仅做调试中暂停使用，不可用在程序中
         self.action.move_to_element(WebDriverWait(self.driver1,70,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[2]/div[1]/div[1]/i'))).perform()#这里要注意，必须要讲？中的内容展开，才能定位到下面的内容
         txt4 = WebDriverWait(self.driver1,70,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[2]/div[1]/div[2]/div/div/div/div[2]/div').text)#暂时不明白如何取出text()中的内容，只能全部取出后，用正则提取
-        print(list(txt4))
-        print(len(txt4))
+        # print(list(txt4))
+        # print(len(txt4))
         try:
             if txt4 == self.lists[13]:
                 print('负面舆情监测的 旧文案为：%s'%(txt4))

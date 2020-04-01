@@ -17,7 +17,7 @@ class Overall_7(object):
             if name7 == '结构风险':
                 print('当前的模块 旧名称为：%s'%(name7))
             elif name7 == '区域统计概览':
-                print('当前的模块 新名称为：%s'%('区域统计概览'))
+                print('当前的模块 新名称为：%s'%(name7))
 
         except:
             print('未定位到 %s 模块...' %(name7))
@@ -27,10 +27,10 @@ class Overall_7(object):
         #print(txt7)
 
         try:
-            if txt7 == ('利用图分析技术对公司进行穿透分析，触发交叉持股等风险结构越多，风险值越高 。'):
-                print('负面舆情监测的 旧文案为：%s'%(txt7))
-            elif  txt7 == '主板、中小板':
-                print('区域统计概览的 新文案为：%s'%('主板、中小板'))
+            if txt7 == self.lists[19]:
+                print('区域统计概览的 旧文案为：%s'%(txt7))
+            elif  txt7 == self.lists[18]:
+                print('区域统计概览的 新文案为：%s'%(txt7))
             else:
                 print('区域统计概览的修改文案不正确：%s'%(txt7))
 

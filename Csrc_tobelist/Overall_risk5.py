@@ -14,7 +14,7 @@ class Overall_5(object):
             self.driver1.find_element_by_xpath('//*[@id="anchor-classifyOverview"]/div[2]/button[8]/a').click()
         name5 = WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[2]/div[1]/span').text)#当前所在模块标题
         try:
-            if name5 == '披露合规分析':
+            if name5 == '披露合规分析 ':
                 print('当前的模块 旧名称为：%s'%(name5))
             elif name5 == '披露合规分析':
                 print('当前的模块 新名称为：%s'%('披露合规分析'))
@@ -26,10 +26,10 @@ class Overall_5(object):
         txt5 = WebDriverWait(self.driver1,70,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[2]/div[1]/div[2]/div/div/div/div[2]/div').text)#暂时不明白如何取出text()中的内容，只能全部取出后，用正则提取
 
         try:
-            if txt5 == ('衡量公司舆情的负面程度，负面舆情越多，爆发的时间越近，风险值越高。'):
+            if txt5 == self.lists[15]:
                 print('负面舆情监测的 旧文案为：%s'%(txt5))
-            elif txt5 == '利用自然语言处理技术对招股说明书信息进行抽取，检验披露内容是否完整、准确。':
-                print('负面舆情监测的 新文案为：%s'%('利用自然语言处理技术对招股说明书信息进行抽取，检验披露内容是否完整、准确。'))
+            elif txt5 == self.lists[14]:
+                print('负面舆情监测的 新文案为：%s'%(txt5))
             else:
                 print('负面舆情监测的修改文案不正确：%s'%(txt5))
 
