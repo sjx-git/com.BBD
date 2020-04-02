@@ -10,13 +10,17 @@ class Overall_10(object):
 
     def risk_10(self):
 
-        #WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[2]/a').click())#返回总体页面
-        self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[2]/a').click()
-        WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[5]/div[4]/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[1]/td[2]/a'))
+        #WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[2]/a').click())#
+        self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[2]/a').click()#返回总体页面
+
+        WebDriverWait(self.driver1,50,0.5).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[5]/div[4]/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[1]/td[2]/a'))#选择第一个管理人进详情
         self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[5]/div[4]/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[1]/td[2]/a').click()
-        WebDriverWait(self.driver1,70,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[3]/div/div[2]/a[1]'))
-        self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[3]/div/div[2]/a[1]').click()
-        self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[5]/div/div[2]/div[1]/div/div[1]/div/span').click()
+
+
+        WebDriverWait(self.driver1,70,0.5).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[5]/div/div[2]/div[1]/div/div[1]/div'))#点击交易对手风险详情
+        self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[5]/div/div[2]/div[1]/div/div[1]/div').click()
+
+        WebDriverWait(self.driver1,20,0.5).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[5]/div/div[2]/div[2]/div/div[1]/div/div[2]/div/span'))#供应商分析
         self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[5]/div/div[2]/div[2]/div/div[1]/div/div[2]/div/span').click()
 
         name10 = WebDriverWait(self.driver1,60,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[5]/div/div[2]/div[2]/div/div[2]/div[2]/div[3]/div/div/div/div/div/table/tbody/tr[2]/td[1]').text)

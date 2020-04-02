@@ -30,25 +30,14 @@ if __name__ == '__main__':
     # Sign_in.sign_demo().SignTest()    
     unittest.TextTestRunner(verbosity=2).run(Test_Suite.Suite_demo().suite_case())
 '''
-from  Csrc_tobelist import New_rename,Overall_risk,Overall_risk1,Overall_risk2,Overall_risk3,Overall_risk4,Overall_risk6,Overall_risk7,Overall_risk8,Overall_risk9,Overall_risk10,Overall_risk11,Overall_risk12,Overall_risk13
+from  Csrc_tobelist import New_rename,Overall_risk,Overall_risk1,Overall_risk2,Overall_risk3,Overall_risk4,Overall_risk6,Overall_risk7,Overall_risk8,Overall_risk9,Overall_risk10,Overall_risk11,Overall_risk12,Overall_risk13,Overall_risk14
 if __name__ == '__main__':
-    New_rename.Open().open_url()
-    # Overall_risk.Overall().risk()
-    # Overall_risk1.Overall_1().risk_1()
-    #Overall_risk2.Overall_2().risk_2()
-    #Overall_risk3.Overall_3().risk_3()
-    #Overall_risk4.Overall_4().risk_4()
-    #Overall_risk6.Overall_6().risk_6()
-    #Overall_risk7.Overall_7().risk_7()
-    #Overall_risk8.Overall_8().risk_8()
-    #Overall_risk9.Overall_9().risk_9()
-    #Overall_risk10.Overall_10().risk_10()
-    #Overall_risk11.Overall_11().risk_11()
-    #Overall_risk12.Overall_12().risk_12()
-    Overall_risk13.Overall_13().risk_13()
+    pass
 
 
 
 
-    New_rename.Open().driver.close()
+
+
+
 

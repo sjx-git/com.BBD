@@ -19,8 +19,9 @@ class Overall_1(object):
         except:
             print('未定位到 %s 模块...'%(name1))
         #time.sleep(3)#仅做调试中暂停使用，不可用在程序中
-        self.action.move_to_element(WebDriverWait(self.driver1,30,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[3]/div/div[1]/i'))).perform()#这里要注意，必须要讲？中的内容展开，才能定位到下面的内容
-        tx = WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div').text)#暂时不明白如何取出text()中的内容，只能全部取出后，用正则提取
+        self.action.move_to_element(WebDriverWait(self.driver1,30,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[3]/div/div[1]/i')))#这里要注意，必须要讲？中的内容展开，才能定位到下面的内容
+        self.action.move_to_element(self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[3]/div/div[1]/i')).click_and_hold().perform()
+        tx = WebDriverWait(self.driver1,50,3).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div').text)#暂时不明白如何取出text()中的内容，只能全部取出后，用正则提取
         #print(tx)
 
         txt1 = re.sub(r'This text is displayed if your browser does not support the Canvas HTML element\.\n','',tx)

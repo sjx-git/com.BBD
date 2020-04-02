@@ -20,7 +20,22 @@
      expected_conditions类 各种类，达到某种条件，返回True和False presence_of_element_located 判断某个元素是否被加到了DOM树里，并不代表该元素一定可见 visibility_of_element_located判断某个元素是否可见，可见代表元素非隐藏，
      并且元素的宽和高都不等于0
      关于显示等待，也可以自己写条件： #设置等待wait = WebDriverWait(driver,10,0.5) #使用匿名函数 wait.until(lambda diver:driver.find_element_by_id('kw'))
- 3.
-
+ 3.1.ActionChains用法整理
+   click(on_element=None) ——单击鼠标左键
+    click_and_hold(on_element=None) ——点击鼠标左键，不松开
+    context_click(on_element=None) ——点击鼠标右键
+    double_click(on_element=None) ——双击鼠标左键
+    drag_and_drop(source, target) ——拖拽到某个元素然后松开
+    drag_and_drop_by_offset(source, xoffset, yoffset) ——拖拽到某个坐标然后松开
+    key_down(value, element=None) ——按下某个键盘上的键
+    key_up(value, element=None) ——松开某个键
+    move_by_offset(xoffset, yoffset) ——鼠标从当前位置移动到某个坐标
+    move_to_element(to_element) ——鼠标移动到某个元素
+    move_to_element_with_offset(to_element, xoffset, yoffset) ——移动到距某个元素（左上角坐标）多少距离的位置
+    perform() ——执行链中的所有动作
+    release(on_element=None) ——在某个元素位置松开鼠标左键
+    send_keys(*keys_to_send) ——发送某个键到当前焦点的元素
+    send_keys_to_element(element, *keys_to_send) ——发送某个键到指定元素
+4.
 
  '''

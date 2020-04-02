@@ -8,10 +8,8 @@ class Overall_6(object):
     action = New_rename.Open.action
     lists = New_rename.Open.lists
     def risk_6(self):
-        try:
-            WebDriverWait(self.driver1,10,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[2]/a').click())#返回总体页面
-        except:
-            self.driver1.find_element_by_xpath('//*[@id="anchor-classifyOverview"]/div[2]/button[9]/a').click()
+        WebDriverWait(self.driver1,10,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[2]/a'))#返回总体页面
+        self.driver1.find_element_by_xpath('//*[@id="anchor-classifyOverview"]/div[2]/button[9]/a').click()
         name6 = WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[2]/span').text)#当前所在模块标题
         try:
             if name6 == '结构风险 ':

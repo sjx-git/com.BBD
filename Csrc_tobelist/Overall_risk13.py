@@ -32,6 +32,7 @@ class Overall_13(object):
         except:
             print('标题“大数据分类” 已被删除:%s'%(name13))
             print(list(name13))
+            print(list(self.lists[33]))
 
 
 if __name__ == '__main__':
