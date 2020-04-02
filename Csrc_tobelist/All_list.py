@@ -50,11 +50,14 @@ class All_list(object):
         risk11_1 = res.row_values(21)[4]
         risk11_1_old = res.row_values(21)[5]
 
+        risk12 = res.row_values(14)[4]
+        risk12_old = res.row_values(14)[5]
 
+        risk13_old = res.row_values(27)[5]
 
 
         return [risk,risk_old,risk1,risk1_old,risk2,risk2_old,risk2_1,risk2_1_old,risk3,risk3_old,risk4,risk4_old,risk4_1,risk4_1_old,risk5,risk5_old,risk6,risk6_old
-        ,risk7,risk7_old,risk8,risk8_old,risk9,risk9_old,risk10,risk10_old,risk11,risk11_old,risk11_1,risk11_1_old
+        ,risk7,risk7_old,risk8,risk8_old,risk9,risk9_old,risk10,risk10_old,risk11,risk11_old,risk11_1,risk11_1_old,risk12,risk12_old,risk13_old
 
         ]
 
