@@ -12,7 +12,9 @@ class Open(object):
     def open_url(self):
         desired_capabilities = DesiredCapabilities.CHROME  # 修改页面加载策略
         desired_capabilities["pageLoadStrategy"] = "none"  # 注释这两行会导致最后输出结果的延迟，即等待页面加载完成再输出
+        self.driver.maximize_window()
         self.driver.get(self.url)
+
         #WebDriverWait(self.driver,10,1)
         title  = self.driver.title
         #print(title)

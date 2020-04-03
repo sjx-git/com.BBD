@@ -9,7 +9,7 @@ class Overall_5(object):
     lists = New_rename.Open.lists
     def risk_5(self):
         try:
-            WebDriverWait(self.driver1,10,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[2]/a').click())#返回总体页面
+            WebDriverWait(self.driver1,5,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[2]/a').click())#返回总体页面
         except:
             self.driver1.find_element_by_xpath('//*[@id="anchor-classifyOverview"]/div[2]/button[8]/a').click()
         name5 = WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[2]/div[1]/span').text)#当前所在模块标题

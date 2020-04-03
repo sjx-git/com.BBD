@@ -13,7 +13,7 @@ class Overall_13(object):
         #WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[2]/a').click())#返回总体页面
         self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[1]/a').click()#进入搜索页面
         try:
-            WebDriverWait(self.driver1,10,4).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[3]/div[1]/div/div[2]/div').click())#搜产品
+            WebDriverWait(self.driver1,5,2).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[3]/div[1]/div/div[2]/div').click())#搜产品
         except:
             self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[3]/div[1]/div/div[2]/div').click()
 
