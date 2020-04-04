@@ -5,7 +5,6 @@ import re
 
 class Overall_13(object):
     driver1 = New_rename.Open.driver
-    action = New_rename.Open.action
     lists = New_rename.Open.lists
 
     def risk_13(self):

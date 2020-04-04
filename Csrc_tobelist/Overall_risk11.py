@@ -5,16 +5,17 @@ import re
 
 class Overall_11(object):
     driver1 = New_rename.Open.driver
-    action = New_rename.Open.action
     lists = New_rename.Open.lists
 
     def risk_11(self):
 
         #WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[2]/a').click())#返回总体页面
-        self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[2]/a').click()#返回总体页面
+        self.driver1.find_element_by_xpath(self.lists[39]).click()#返回总体页面
+
         WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[5]/div[4]/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[1]/td[2]/a'))
         self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[5]/div[4]/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[1]/td[2]/a').click()#风险排名 第一个
-        WebDriverWait(self.driver1,70,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[3]/div/div[2]/a[1]'))
+
+        #WebDriverWait(self.driver1,70,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[3]/div/div[2]/a[1]'))
         #self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[3]/div/div[2]/a[1]').click()# 公司基础详情
 
         self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[5]/div/div[2]/div[1]/div/div[2]/div/span').click()# 关联交易风险

@@ -30,11 +30,21 @@ if __name__ == '__main__':
     # Sign_in.sign_demo().SignTest()    
     unittest.TextTestRunner(verbosity=2).run(Test_Suite.Suite_demo().suite_case())
 '''
-from  Csrc_tobelist import New_rename,Overall_risk,Overall_risk1,Overall_risk2,Overall_risk3,Overall_risk4,Overall_risk6,Overall_risk7,Overall_risk8,Overall_risk9,Overall_risk10,Overall_risk11,Overall_risk12,Overall_risk13,Overall_risk14
+#from  Csrc_tobelist import New_rename,Overall_risk,Overall_risk1,Overall_risk2,Overall_risk3,Overall_risk4,Overall_risk6,Overall_risk7,Overall_risk8,Overall_risk9,Overall_risk10,Overall_risk11,Overall_risk12,Overall_risk13,Overall_risk14
+from  Csrc_tobelist import Overall_TestSuite
+import unittest,time
+from HTMLTestRunner_cn import HTMLTestRunner
 if __name__ == '__main__':
-    pass
-
-
+    #unittest.TextTestRunner(verbosity=2).run(Overall_TestSuite.Test_Suite().test_suite())
+    '''自定义包含时间的测试报告'''
+    res = time.strftime('%Y-%m-%d-%H-%M-%S')
+    html = 'report'+res+'.html'
+    with open(html,"wb") as f:#在文件中用：wb参数 w代表写入，b：是用二进制写入测试报告的内容
+        #HTMLTestRunner( stream=open("sample_test_report.html", "wb"), verbosity=2, retry=2, save_last_try=True)
+        # 在实例化HTMLTestRunner 对象时追加参数，retry，指定重试次数，如果save_last_try 为True ，一个用例仅显示最后一次测试的结果。如果save_last_try 为False，则显示所有重试的结果。
+        runner = HTMLTestRunner(stream = f,title = u'测试报告',description= u'测试情况',verbosity =2)
+        #runner.STYLESHEET_TMPL = '<link rel="stylesheet" href="my_stylesheet.css" type="text/css">'#样式的是否加载 开启就不会加载
+        runner.run(Overall_TestSuite.Test_Suite().test_suite())
 
 
 

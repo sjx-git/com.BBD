@@ -4,15 +4,14 @@ from Csrc_tobelist import New_rename
 
 class Overall(object):
     driver1 = New_rename.Open.driver
-    action = New_rename.Open.action
     lists = New_rename.Open.lists
 
     def risk(self):
         try:
             name = self.driver1.find_element_by_class_name('activeItem__D3Lq8').text
-            print('当前的模块为：%s'%(name))
+            print('总体风险：%s'%(name))
         except:
-            print('未定位到指定模块...')
+            print('未定位到总体风险...')
         txt = self.driver1.find_element_by_class_name('secondTopBarTitle__1j4tQ').text
         try:
             if txt == self.lists[1]:

@@ -5,13 +5,12 @@ import re
 
 class Overall_10(object):
     driver1 = New_rename.Open.driver
-    action = New_rename.Open.action
     lists = New_rename.Open.lists
 
     def risk_10(self):
 
         #WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[2]/a').click())#
-        self.driver1.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[1]/ul/li/ul/li[2]/a').click()#返回总体页面
+        self.driver1.find_element_by_xpath(self.lists[39]).click()#返回总体页面
 
         WebDriverWait(self.driver1,50,0.5).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[5]/div[4]/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[1]/td[2]/a'))#选择第一个管理人进详情
         self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[5]/div[4]/div/div/div[2]/div/div/div/div/div[1]/table/tbody/tr[1]/td[2]/a').click()

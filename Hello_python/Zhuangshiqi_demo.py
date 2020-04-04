@@ -2,14 +2,15 @@
 不带参数的装饰器
 对有参数，有返回值的函数，进行装饰即，做一个 通用装饰器
 1.要注意在装饰器中，传入对应的形参，可以用不定长参数代替
-2.在原来的函数中，该怎么调用还是怎么调用'''
+2.在原来的函数中，该怎么调用还是怎么调用
+'''
 import functools
 def A(func):
     @functools.wraps(func)#如果不加此方法，再用help查看B的说明时，会打印装饰器A的说明
     def A(*args,**kwargs):
         '函数A的说明'
         print('A装饰器')
-        return  func(*args,**kwargs)#有返回值的时候，记得最后要讲返回的数据给 return
+        return func(*args,**kwargs)#有返回值的时候，记得最后要讲返回的数据给 return
     return A
 @A
 def B(a,b,c):

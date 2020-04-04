@@ -36,6 +36,13 @@
     release(on_element=None) ——在某个元素位置松开鼠标左键
     send_keys(*keys_to_send) ——发送某个键到当前焦点的元素
     send_keys_to_element(element, *keys_to_send) ——发送某个键到指定元素
-4.
+4. 在使用action方法的时候 有个很大的坑(当脚本中有多个脚本都使用了action方法后，在单独运行时没问题，但是在批量运行的时候，会出现报错)，经过我近2天的排查 fuck！！！这种心情难以言表！
+       有两种解决方案：
+            1.用 action.reset_actions()清除   但是我并没有get相关知识
+            2.在初始化的时候，不使用统一的声明：    action = webdriver.ActionChains(driver)         在其他class中 直接这么调用action = New_rename.Open.action
+                    正确：各自声明自己的action      action = webdriver.ActionChains(driver)
+
+
+
 
  '''
