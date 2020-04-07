@@ -76,6 +76,8 @@ class Overall_5(object):
 
                 except:
                     print('披露合规分析的修改文案不正确：%s'%(txt5))
+        return [txt5]
+
 
 if __name__ == '__main__':
     Overall_5().risk_5()

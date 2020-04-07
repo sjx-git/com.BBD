@@ -30,6 +30,6 @@ class Overall_12(object):
         except:
             print('标题“是否为上市公司” 出错了:%s'%(name12))
 
-
+        return [name12]
 if __name__ == '__main__':
     Overall_12().risk_12()

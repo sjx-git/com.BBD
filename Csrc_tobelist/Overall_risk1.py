@@ -12,7 +12,7 @@ class Overall_1(object):
 
     def risk_1(self):
         try:
-            WebDriverWait(self.driver1,5,1).until(lambda x:self.driver1.find_element_by_xpath(self.lists[39]).click())#返回总体页面
+            WebDriverWait(self.driver1,10,1).until(lambda x:self.driver1.find_element_by_xpath(self.lists[39]).click())#返回总体页面
         except:
             self.driver1.find_element_by_xpath(self.lists[39]).click()#返回总体页面
         tem = WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="anchor-classifyOverview"]/div[2]').text)#获取所有tab标签位置信息
@@ -41,6 +41,7 @@ class Overall_1(object):
                     print('交易对手风险的 新文案为：%s'%(txt1))
             except:
                 print('交易对手风险的 新文案修改不正确：%s'%(txt1))
+            return [txt1]
         elif self.lists[36] == tem[9]:
             pass
 

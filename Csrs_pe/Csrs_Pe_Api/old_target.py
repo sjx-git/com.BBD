@@ -1,5 +1,7 @@
-from Csrs_pe  import Headers_demo,Oldname_demo
-import  requests,json,random
+from Csrs_pe.Csrs_Pe_Api import Headers_demo, Oldname_demo
+import  requests,json
+
+
 class old_name(object):
     '''
     #此类方法，是用for循环的方式 通过以列为单位，获取到id，但是没法同时获取到name，所以用下面的方法

@@ -1,12 +1,13 @@
 #coding:utf-8
 from Csrc_tobelist import New_rename
-
+from selenium.webdriver.support.wait import WebDriverWait
 
 class Overall(object):
     driver1 = New_rename.Open.driver
     lists = New_rename.Open.lists
 
     def risk(self):
+        WebDriverWait(self.driver1,20,1).until(lambda x:self.driver1.find_element_by_class_name('activeItem__D3Lq8'))
         try:
             name = self.driver1.find_element_by_class_name('activeItem__D3Lq8').text
             print('总体风险：%s'%(name))
@@ -20,6 +21,7 @@ class Overall(object):
                 print('总体风险--风险分类分析的 新名称为：%s'%(self.lists[0]))
         except:
             print('总体风险--风险分类分析 所修改的名称不正确:%s'%(txt))
+        return [txt]
         #time.sleep(10)
 if __name__ == '__main__':
     Overall().risk()

@@ -45,6 +45,6 @@ class Overall_10(object):
                 print('第一大供应商采购额的名称 修改错了:%s'%(name10_1))
         except:
             print('第一大供应商采购额的名称 出错了:%s'%(name10_1))
-
+        return  [name10_1]
 if __name__ == '__main__':
     Overall_10().risk_10()

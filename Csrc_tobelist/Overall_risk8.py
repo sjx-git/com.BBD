@@ -29,7 +29,7 @@ class Overall_8(object):
         except:
             print('总体风险的排列顺序不正确： %s ' %(name8))
 
-
+        return [name8]
         # print(name8)
         # return name8
 if __name__ == '__main__':

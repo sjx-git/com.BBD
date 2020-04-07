@@ -28,6 +28,6 @@ class Overall_9(object):
             print('公司详情--资产评估机构：%s 模块 已被删除'%(name9))
 
 
-
+        return [name9]
 if __name__ == '__main__':
     Overall_9().risk_9()

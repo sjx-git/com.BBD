@@ -31,12 +31,17 @@ if __name__ == '__main__':
     unittest.TextTestRunner(verbosity=2).run(Test_Suite.Suite_demo().suite_case())
 '''
 #from  Csrc_tobelist import New_rename,Overall_risk,Overall_risk1,Overall_risk2,Overall_risk3,Overall_risk4,Overall_risk6,Overall_risk7,Overall_risk8,Overall_risk9,Overall_risk10,Overall_risk11,Overall_risk12,Overall_risk13,Overall_risk14
+
+'''
+拟上市
+'''
+'''
 from  Csrc_tobelist import Overall_TestSuite
 import unittest,time
 from HTMLTestRunner_cn import HTMLTestRunner
 if __name__ == '__main__':
     #unittest.TextTestRunner(verbosity=2).run(Overall_TestSuite.Test_Suite().test_suite())
-    '''自定义包含时间的测试报告'''
+    #自定义包含时间的测试报告
     res = time.strftime('%Y-%m-%d-%H-%M-%S')
     html = 'report'+res+'.html'
     with open(html,"wb") as f:#在文件中用：wb参数 w代表写入，b：是用二进制写入测试报告的内容
@@ -46,7 +51,14 @@ if __name__ == '__main__':
         #runner.STYLESHEET_TMPL = '<link rel="stylesheet" href="my_stylesheet.css" type="text/css">'#样式的是否加载 开启就不会加载
         runner.run(Overall_TestSuite.Test_Suite().test_suite())
 
+'''
 
+from Csrs_pe.Csrc_Pe_UI import Open_csrc,Target_risk
+if __name__ == '__main__':
+    Open_csrc.Open().open_url()
+    Target_risk.target_risk().risk()
+
+    Open_csrc.Open().driver.close()
 
 
 

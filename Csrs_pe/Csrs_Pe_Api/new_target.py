@@ -1,7 +1,7 @@
 import requests,json
-from Csrs_pe import Headers_demo
-from Csrs_pe import Time_demo
-from Csrs_pe import Name_demo
+from Csrs_pe.Csrs_Pe_Api import Time_demo, Headers_demo, Name_demo
+
+
 class target(object):
     #第一步设置url信息
     url1 = 'http://10.28.200.165/csrc_pe/api/v1.0/risk/investigation/index/feedback/insert'

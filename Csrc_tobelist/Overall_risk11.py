@@ -44,6 +44,6 @@ class Overall_11(object):
                 print('标题“供应商关联” 修改错了:%s'%(name11_1))
         except:
             print('标题“供应商关联” 出错了:%s'%(name11_1))
-
+        return [name11_1]
 if __name__ == '__main__':
     Overall_11().risk_11()

@@ -41,6 +41,7 @@ class Overall_3(object):
 
             except:
                 print('智能预警风险 未定位到：%s'%(name3))
+        return [name3]
         #time.sleep(10)
 
 

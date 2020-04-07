@@ -16,8 +16,6 @@ class Overall_13(object):
         except:
             self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[3]/div[1]/div/div[2]/div').click()
 
-
-
         try:
             name13 = WebDriverWait(self.driver1,10,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="labelSearchResult"]/div/div[2]/div/div/div/div/div[1]/table/thead/tr/th[6]/div/span[1]/span').text)
             name13 = str(name13).replace('\n','').rstrip()
@@ -33,6 +31,6 @@ class Overall_13(object):
             print(list(name13))
             print(list(self.lists[33]))
 
-
+        return [name13]
 if __name__ == '__main__':
     Overall_13().risk_13()

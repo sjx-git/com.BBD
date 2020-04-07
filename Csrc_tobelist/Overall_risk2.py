@@ -42,7 +42,7 @@ class Overall_2(object):
         except:
             print('风险指标体系的修改文案不正确：%s'%(txt2))
 
-
+        return [txt2]
 
 if __name__ == '__main__':
     Overall_2().risk_2()

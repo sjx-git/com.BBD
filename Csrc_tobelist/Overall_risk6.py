@@ -85,6 +85,6 @@ class Overall_6(object):
 
             except:
                 print('结构风险的修改文案不正确：%s'%(txt6))
-
+        return [txt6]
 if __name__ == '__main__':
     Overall_6().risk_6()

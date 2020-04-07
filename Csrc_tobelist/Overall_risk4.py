@@ -69,6 +69,6 @@ class Overall_4(object):
             except:
                 print('负面舆情监测的修改文案不正确：%s'%(txt4))
 
-
+        return [txt4]
 if __name__ == '__main__':
     Overall_4().risk_4()

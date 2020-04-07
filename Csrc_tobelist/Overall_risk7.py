@@ -40,6 +40,6 @@ class Overall_7(object):
 
         #time.sleep(10)
 
-
+        return [txt7]
 if __name__ == '__main__':
     Overall_7().risk_7()
