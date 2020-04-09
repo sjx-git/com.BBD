@@ -64,7 +64,7 @@ class Overall_suite(unittest.TestCase):
         unittest.TestCase.assertEqual(self,tem[0],self.lists[30])
     def test13(self):
         tem = Overall_risk13.Overall_13().risk_13()
-        unittest.TestCase.assertEqual(self,tem[0],None)
+        unittest.TestCase.assertIsNone(self,tem)
     def test14(self):
         tem = Overall_risk14.Overall_14().risk_14()
         unittest.TestCase.assertEqual(self,tem[0],self.lists[34])

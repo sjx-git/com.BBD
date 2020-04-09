@@ -35,7 +35,7 @@ if __name__ == '__main__':
 '''
 拟上市
 '''
-'''
+
 from  Csrc_tobelist import Overall_TestSuite
 import unittest,time
 from HTMLTestRunner_cn import HTMLTestRunner
@@ -51,14 +51,16 @@ if __name__ == '__main__':
         #runner.STYLESHEET_TMPL = '<link rel="stylesheet" href="my_stylesheet.css" type="text/css">'#样式的是否加载 开启就不会加载
         runner.run(Overall_TestSuite.Test_Suite().test_suite())
 
-'''
 
-from Csrs_pe.Csrc_Pe_UI import Open_csrc,Target_risk
-if __name__ == '__main__':
-    Open_csrc.Open().open_url()
-    Target_risk.target_risk().risk()
-
-    Open_csrc.Open().driver.close()
+"""
+    私募GUI
+"""
+# from Csrs_pe.Csrc_Pe_UI import Open_csrc,Target_risk
+# if __name__ == '__main__':
+#     Open_csrc.Open().open_url()
+#     Target_risk.target_risk().risk()
+#
+#     Open_csrc.Open().driver.close()
 
 
 

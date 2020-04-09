@@ -72,7 +72,8 @@ class Overall_6(object):
             except:
                 txt6 = WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div/p').text)#暂时不明白如何取出text()中的内容，只能全部取出后，用正则提取
 
-            txt6 = WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div/p').text)#暂时不明白如何取出text()中的内容，只能全部取出后，用正则提取
+            WebDriverWait(self.driver1,50,1).until(lambda x:self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div/p'))#暂时不明白如何取出text()中的内容，只能全部取出后，用正则提取
+            txt6 = self.driver1.find_element_by_xpath('//*[@id="rigthContent"]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div/p').text
             #print(txt6)
             #txt6 = re.sub(r'This text is displayed if your browser does not support the Canvas HTML element\.\n','',txt6)
             try:
