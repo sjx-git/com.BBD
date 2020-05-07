@@ -32,13 +32,15 @@ class Re_demo(object):
         match方法从头开始找，找到就返回，否则为None，只匹配一次
         search从头依次搜索，只匹配一次
         findall方法：返回列表，匹配所有
+        sub 替换
         split 根据匹配进行切割字符串，并返回一个列表
         在"*","?","+","{m,n}"后面加上？，使贪婪变成非贪婪。
 
     '''
 
     def re_demos(self):
-        s = 'itcast'
+        self.itcast = 'itcast'
+        s = self.itcast
         A = 'itcastDEMO'
         res = re.match(s,A)  # match(匹配的格式，匹配的字符串)，从左到右开始匹配并且是需要完全匹配才可以。
                              # 当匹配正确的时候，只要前部分完全匹配 后边的无论是什么  都算是正确的；并将匹配格式或者说是匹配到的那部分数据返回，并不是会将 匹配对象全部返回；

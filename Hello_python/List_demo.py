@@ -2,7 +2,9 @@ list7 = ['hi', 'world', 'are', 'you', 'ok?', '11', '22', '33', '11', '22', '33',
 list1 = ['Good']
 '添加单个字符或者列表 在最后，会将列表整个加进去[[新加的列表]]'
 list7.append('yes')
-#print(list7)
+print(list7)
+# list7.append(list1)
+# print(list7)
 '按下标添加'
 list7.insert(0, 'haha')
 #print(list7)
@@ -39,8 +41,11 @@ print(list7)
 '排序 从大到小'
 list7.sort(reverse=True)
 print(list7)
-'排序 颠倒位置'
+'排序 颠倒位置 第一种'
 list7.reverse()
+print(list7)
+'第二种  切片实现'
+list7[::-1]
 print(list7)
 
 '去重 第一种'
@@ -58,4 +63,7 @@ print(list5)
 #此处可以使用eval 原本是什么样的格式就转回什么样的格式
 list6 = eval(str(list5))
 print('list6的数值是%s'%list6)
+
+
+
 
