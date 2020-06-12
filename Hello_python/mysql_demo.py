@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 from pymysql import connect
 class mysql_demo(object):
     def mysql_open(self):

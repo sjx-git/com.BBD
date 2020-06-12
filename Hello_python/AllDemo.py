@@ -5,6 +5,10 @@
 '''
 #列别名  当模块名很长的时候  可以用as 重新命名
 import time as  tt
+#先导入标准库，第三方库，本地库   并用空行隔开
+#os,sys,time,random,re
+#xlrd,htmlRunner,panda,re,request,selenium
+
 tt.sleep(1)
 class Demo(object):#类方法的命名，大驼峰的方式
     #第一行，用来描述这是干嘛用的意义所在
@@ -258,4 +262,11 @@ class test(object):
         print(str.lstrip("!"))
 if __name__ == '__main__':
     test.demo('self')
+'''
+
+'''
+os.path.abspath(__file__)#获取当前脚本所在路径  F:\bbd.com\Csrc_tobelist\Tobelist_ETl\Etl_file.py
+current_path = os.path.dirname(os.path.abspath(__file__))#将当前获取到的脚本路径，去除脚本后，只保留文件名 F:\bbd.com\Csrc_tobelist\Tobelist_ETl
+result_path =current_path  + os.sep + 'result'   #os.sep根据你所处的平台，自动采用相应的分隔符号 linux用/  windows用\
+sys.path.append(current_path) #将文件夹 放到系统变量中 以便全局使用
 '''

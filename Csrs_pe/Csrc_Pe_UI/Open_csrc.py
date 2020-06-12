@@ -1,9 +1,8 @@
 #coding:utf-8
-import time
 
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-from Csrc_tobelist import All_list
+
 
 class Open(object):
     url = 'http://10.28.200.165/csrc_pe/#/riskMap'

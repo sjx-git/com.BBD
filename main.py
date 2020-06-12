@@ -36,8 +36,8 @@ if __name__ == '__main__':
 拟上市
 '''
 
-from  Csrc_tobelist import Overall_TestSuite
-import unittest,time
+from Csrc_tobelist.Tobelist_GUI import Overall_TestSuite
+import time
 from HTMLTestRunner_cn import HTMLTestRunner
 if __name__ == '__main__':
     #unittest.TextTestRunner(verbosity=2).run(Overall_TestSuite.Test_Suite().test_suite())

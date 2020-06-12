@@ -64,6 +64,18 @@ print(list5)
 list6 = eval(str(list5))
 print('list6的数值是%s'%list6)
 
+a = [123]
+b = [132]
+if a == b:
+    print('1')
 
 
+def sum(num: int) -> int:
+    res = 0
+    while num != 0:
+        res += num % 10
+        num //= 10
+    return res
 
+
+print(sum(789))

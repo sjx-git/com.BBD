@@ -41,7 +41,8 @@
             1.用 action.reset_actions()清除   但是我并没有get相关知识
             2.在初始化的时候，不使用统一的声明：    action = webdriver.ActionChains(driver)         在其他class中 直接这么调用action = New_rename.Open.action
                     正确：各自声明自己的action      action = webdriver.ActionChains(driver)
-
+5.定位方法
+    id，name,class_name,tag_name,xpth,css,link_text,partial_link_text
 
 
 
