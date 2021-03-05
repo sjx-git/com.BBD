@@ -1,6 +1,6 @@
 list7 = ['hi', 'world', 'are', 'you', 'ok?', '11', '22', '33', '11', '22', '33', '44']
 list1 = ['Good']
-'添加单个字符或者列表 在最后，会将列表整个加进去[[新加的列表]]'
+"""'添加单个字符或者列表 在最后，会将列表整个加进去[[新加的列表]]'
 list7.append('yes')
 print(list7)
 # list7.append(list1)
@@ -47,21 +47,22 @@ print(list7)
 '第二种  切片实现'
 list7[::-1]
 print(list7)
-
+"""
 '去重 第一种'
 
 list4 = []
 for i in list7:
     if i not in list4:
         list4.append(i)
-#print(list4)
+print('list4的值为：%s'%list4)
 
 '去重 第二种'
-list5 = set(list7)
-print(list5)
+list5 = set(list7)#set会将list转变为无序的数值{} 很像是字典但看了类型为set类型
+print('list5的值为：%s'%list5)
 #list6 = list(list5)
 #此处可以使用eval 原本是什么样的格式就转回什么样的格式
-list6 = eval(str(list5))
+#list6 = eval(str(list5))
+list6 = list(list5)
 print('list6的数值是%s'%list6)
 
 a = [123]
