@@ -3,8 +3,8 @@
 '''
 此demo 包含 基本架构及各种使用方法
 '''
-#列别名  当模块名很长的时候  可以用as 重新命名
-import time as  tt
+
+import time as  tt#列别名  当模块名很长的时候  可以用as 重新命名
 #先导入标准库，第三方库，本地库   并用空行隔开
 #os,sys,time,random,re
 #xlrd,htmlRunner,panda,re,request,selenium

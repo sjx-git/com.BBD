@@ -2,6 +2,7 @@ str = "   This is a demo for str         "
 str1= ['hi','world']
 str2 = 'abdeEFGH'
 str3 = 'zz\nnn'
+str4 = input('输入')
 
 ''' 字符串的切片    起始位置：终止位置（不包含最后一个，也就是取出-1的值）：跳步  '''
 print('正向 取出全部的值：%s'%str2[0:])
@@ -65,7 +66,7 @@ print('全部小写：%s'%str.lower())
 print('全部大写：%s'%str.upper())
 
 print('判断是不是字母：%s'%str2.isalpha())
-print('判断是不是数字：%s'%str2.isdigit())
+print('判断是不是数字：%s'%str4.isdigit())
 print('判断是不是字母和数字都有：%s'%str2.isalnum())
 
 print('合并：%s'%str.join(str1))
