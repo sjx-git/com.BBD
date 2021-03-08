@@ -38,3 +38,5 @@ for temp in old_json:
 '''  删除'''
 dict['sex']
 print('删除后的结果：%s'%dict)#若不存在就会报错
+
+

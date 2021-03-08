@@ -1,5 +1,6 @@
 list7 = ['hi', 'world', 'are', 'you', 'ok?', '11', '22', '33', '11', '22', '33', '44']
 list1 = ['Good']
+list10 = [{'name':'laowang','age':9},{'name':'wangzong','age':10},{'name':'xiaoming','age':11}]
 '''  添加有 append、insert、extend、直接+号四种方法；
         能添加单个字符的append、insert；
         能加列表的append、'extend、+号'''
@@ -47,23 +48,30 @@ if 'gun' not in list7:
 print('index（要查询的关键字）：%s'%list7.index('11'))
 print('index（要查询的关键字,起始位置、终止位置）：%s'%list7.index('11',0,7))
 
+'''排序 当列表内容元素为数字的时候很好排序，但为字典的时候就需要用到lambda函数'''
 
-'排序 从小到大'
 list7.sort()
-print(sorted(list7))
-print(list7)
-'排序 从大到小'
+print('排序 从小到大：%s'%sorted(list7))
+print('排序 从小到大：%s'%list7)
+
 list7.sort(reverse=True)
-print(list7)
-'排序 颠倒位置 第一种'
+print('排序 从大到小：%s'%list7)
+
 list7.reverse()
-print(list7)
-'第二种  切片实现'
+print('排序 颠倒位置 第一种：%s'%list7)
+
 list7[::-1]
-print(list7)
+print('排序 颠倒位置 第二种  切片实现：%s'%list7)
+
+'''  内容是字典的排序 '''
+list10.sort(key=lambda x:x['name'])
+print('按照name从小到大排序的结果：%s'%list10)
+
+list10.sort(key=lambda x:x['name'],reverse=True)
+print('按照name从大到小排序的结果：%s'%list10)
+
 
 '去重 第一种'
-
 list4 = []
 for i in list7:
     if i not in list4:
@@ -84,13 +92,10 @@ b = [132]
 if a == b:
     print('1')
 
-
 def sum(num: int) -> int:
     res = 0
     while num != 0:
         res += num % 10
         num //= 10
     return res
-
-
 print(sum(789))
