@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7c78501-a0e3-4ad7-b702-fa653a3495ba" name="Default" comment="完善了一些方法和面试题的答案">
+    <list default="true" id="b7c78501-a0e3-4ad7-b702-fa653a3495ba" name="Default" comment="完善了一些方法">
+      <change afterPath="$PROJECT_DIR$/Hello_python/Staticmethod_classmethod_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello_python/Dictionaries_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello_python/Dictionaries_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello_python/File_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello_python/File_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello_python/List_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello_python/List_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello_python/mianshiti.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello_python/mianshiti.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello_python/Super_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello_python/Super_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello_python/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello_python/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello_python/fabric_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello_python/Siyou.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,10 +217,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -234,7 +234,7 @@
       <recent name="F:\bbd.com\Csrs_pe" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.File_demo">
+  <component name="RunManager" selected="Python.__init__">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -261,28 +261,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Digui_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="bbd.com" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hello_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/Digui_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="File_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bbd.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -305,7 +283,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="List_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Siyou" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bbd.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,7 +296,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/List_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/Siyou.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Super_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bbd.com" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hello_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/Super_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -415,7 +415,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mianshiti" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="caiquan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bbd.com" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -428,7 +428,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/mianshiti.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello_python/caiquan.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -451,18 +451,18 @@
       <item itemvalue="Python.Unnamed (2)" />
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.__init__" />
-      <item itemvalue="Python.Digui_demo" />
-      <item itemvalue="Python.List_demo" />
-      <item itemvalue="Python.mianshiti" />
       <item itemvalue="Python.File_demo" />
+      <item itemvalue="Python.caiquan" />
+      <item itemvalue="Python.Siyou" />
+      <item itemvalue="Python.Super_demo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.File_demo" />
-        <item itemvalue="Python.mianshiti" />
-        <item itemvalue="Python.List_demo" />
         <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.Digui_demo" />
+        <item itemvalue="Python.Super_demo" />
+        <item itemvalue="Python.Siyou" />
+        <item itemvalue="Python.caiquan" />
+        <item itemvalue="Python.File_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +513,10 @@
       <workItem from="1614646914993" duration="3652000" />
       <workItem from="1614728976201" duration="6812000" />
       <workItem from="1614755186093" duration="2004000" />
-      <workItem from="1614819284291" duration="57343000" />
+      <workItem from="1614819284291" duration="58236000" />
+      <workItem from="1615248060356" duration="368000" />
+      <workItem from="1615249909982" duration="13895000" />
+      <workItem from="1615335532754" duration="3531000" />
     </task>
     <task id="LOCAL-00001" summary="完善了一些方法和面试题的答案">
       <created>1615033579640</created>
@@ -522,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615033579640</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完善了一些方法">
+      <created>1615192511194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615192511194</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -626,15 +636,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完善了一些方法和面试题的答案" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善了一些方法和面试题的答案" />
+    <MESSAGE value="完善了一些方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善了一些方法" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/com_bbd$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1615033677539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
-    <SUITE FILE_PATH="coverage/com_bbd$caiquan.coverage" NAME="caiquan Coverage Results" MODIFIED="1614729746230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_bbd$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1615337817153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_bbd$caiquan.coverage" NAME="caiquan Coverage Results" MODIFIED="1615254193617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_bbd$Canshu_demo.coverage" NAME="Canshu_demo Coverage Results" MODIFIED="1615019045027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_bbd$List_demo.coverage" NAME="List_demo Coverage Results" MODIFIED="1615036398818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_bbd$Tuple_demo.coverage" NAME="Tuple_demo Coverage Results" MODIFIED="1615002849555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
@@ -646,6 +657,8 @@
     <SUITE FILE_PATH="coverage/com_bbd$Card_demo.coverage" NAME="Card_demo Coverage Results" MODIFIED="1614934516935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_bbd$Dictionaries_demo.coverage" NAME="Dictionaries_demo Coverage Results" MODIFIED="1614993041236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_bbd$Global_variable_demo.coverage" NAME="Global variable_demo Coverage Results" MODIFIED="1615015936063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_bbd$Siyou.coverage" NAME="Siyou Coverage Results" MODIFIED="1615260580134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
+    <SUITE FILE_PATH="coverage/com_bbd$Super_demo.coverage" NAME="Super_demo Coverage Results" MODIFIED="1615276847544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_bbd$qiantao.coverage" NAME="qiantao Coverage Results" MODIFIED="1614671573954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
     <SUITE FILE_PATH="coverage/com_bbd$while_break_continue.coverage" NAME="while_break_continue Coverage Results" MODIFIED="1614755761361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hello_python" />
   </component>
