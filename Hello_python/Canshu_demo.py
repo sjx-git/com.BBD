@@ -27,4 +27,9 @@ def test3(a,b,c=33,*args,**kwargs):
 test3(11,22,33,44,55,66,age=88,id=77,*A,**B )#如果此处不加*和** 那么所有的值都会被当作一个整体放入，*args中
 
 
-
+'''给程序传参 sys.argv'''
+import  sys
+def aaa(a):
+    sys.argv.append(a)
+    print('你好%s'%sys.argv[1])
+aaa(1)

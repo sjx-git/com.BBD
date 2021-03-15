@@ -1,3 +1,17 @@
+'''给出两个列表，以a为姓，b为名进行名字的组合'''
+'''第一种'''
+num = 0
+a = ['赵','钱','孙','李']
+b = ['一','二','三','四']
+for i in a:
+    for j in  b:
+        num += 1
+        print('第%d次组合：%s'%(num,(i+j)))
+'''第二种'''
+g = [(i1,j1) for n1,i1 in enumerate(a) for m1,j1 in enumerate(b)]#enumrate 会返会列表的下标和对应值；可以加第二个参数，控制从哪儿个位置开始
+print(g)
+
+
 '''给定一个int类型的数字123，要求编写一个函数，返回1+2+3'''
 def demo_01(A):
     tem = 0
