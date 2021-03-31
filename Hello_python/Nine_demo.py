@@ -9,7 +9,7 @@ while i <= 9:
     i += 1
 
 '''   倒三角'''
-print('*'*100)
+print('*'*150)
 i = 9
 while i>=1:
     j = 1

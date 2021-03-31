@@ -21,19 +21,6 @@ print('获取到所有的key和value：%s'%dict.items())
 for key,value in dict.items():
     print('key:%s,value:%s'%(key,value))
 
-'''  面试题：重构后，比较json中的字段值是否一致'''
-old_json = [{'a':2,'b':3},{'e':4,'f':5}]
-new_json = [{'a':2, 'b':3},{'E':4,'f':5}]
-
-for temp in old_json:
-    for temp1 in new_json:
-        if temp.keys() == temp1.keys():
-            print('key相等的数据为：%s'%temp1)
-            break
-    else:
-        print('key不相等的数据为：%s'%temp1)
-
-
 
 '''  删除'''
 dict['sex']

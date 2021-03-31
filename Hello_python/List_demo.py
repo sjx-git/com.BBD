@@ -92,10 +92,4 @@ b = [132]
 if a == b:
     print('1')
 
-def sum(num: int) -> int:
-    res = 0
-    while num != 0:
-        res += num % 10
-        num //= 10
-    return res
-print(sum(789))
+
